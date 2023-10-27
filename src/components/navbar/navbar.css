@@ -1,0 +1,31 @@
+#Navbar {
+    z-index: 5;
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+    right: 2rem;
+    color: #0065D6;
+    
+}
+.navbar{
+    backdrop-filter: blur(2px) saturate(120%);
+    -webkit-backdrop-filter: blur(2px) saturate(120%); 
+    background-color: rgba(17, 25, 40, 0.85);
+    /* background-color: black; */
+    border-radius: 1.3rem;
+}
+.logo p {
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+}
+
+.nav-items {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.nav-moto {
+    font-family: 'Playfair Display', serif;
+}
+.nav-items p:hover{
+    color: white;
+}
