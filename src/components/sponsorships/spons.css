@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.sponsorship-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.sponsor {
+    width: 500px;
+    height: 550px;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ffffff, #d3d3d1);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10000s linear infinite;
+}
+
+.sponsor img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 1rem;
+}
+
+.sponsor.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.sponsor-group {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.sponsor::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.2) 100%);
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.sponsor:hover::before {
+    opacity: 1;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+        /* Initial position of the gradient */
+    }
+
+    100% {
+        background-position: 100% 50%;
+        /* Final position of the gradient */
+    }
+}

@@ -1,0 +1,70 @@
+/* Common styles for both desktop and mobile */
+body {
+    background-color: black !important;
+    margin: 0 0 auto;
+}
+
+.navbar-border {
+    height: 60px;
+    /* Adjust the height as needed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+/* Define the gradient for the hover effect */
+.navbar-link:hover {
+    fill: url(#navbar-hover-gradient);
+}
+
+/* Media query for screens with a maximum width of 768px (mobile screens) */
+@media screen and (max-width: 768px) {
+    .navbar-border {
+        padding-left: 10px;
+        /* Adjust the padding for smaller screens */
+    }
+
+    .navbar-link {
+        font-size: 24px;
+        /* Adjust the font size for smaller screens */
+    }
+
+    /* Shift the navbar links to the left using transform */
+    .navbar-link {
+        transform: translateX(-10px);
+        /* Adjust the horizontal position as needed */
+    }
+
+    /* Adjust the positions for equal gaps */
+    .navbar-link:nth-child(1) {
+        transform: translateX(0px);
+        /* Adjust the horizontal position as needed */
+    }
+
+    .navbar-link:nth-child(2) {
+        transform: translateX(90px);
+        /* Adjust the horizontal position as needed */
+    }
+
+    .navbar-link:nth-child(3) {
+        transform: translateX(270px);
+        /* Adjust the horizontal position as needed */
+    }
+
+    .navbar-link:nth-child(4) {
+        transform: translateX(270px);
+        /* Adjust the horizontal position as needed */
+    }
+
+    .navbar-link:nth-child(5) {
+        transform: translateX(360px);
+        /* Adjust the horizontal position as needed */
+    }
+
+    .navbar-link:nth-child(6) {
+        transform: translateX(480px);
+        /* Adjust the horizontal position as needed */
+    }
+}

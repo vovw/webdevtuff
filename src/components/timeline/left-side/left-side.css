@@ -1,0 +1,130 @@
+.left-content img {
+    width: 11rem!important;
+    height: 11rem!important;
+    border-radius: 1.2rem;
+    position: relative;
+    left: .7rem;
+    z-index: 5;
+    transition: transform 1s ease;
+}
+
+.left-content img:hover {
+    transform: scale(0.97);
+}
+
+.left-content div {
+    width: 3rem;
+}
+
+.l-hr-line p {
+    height: 3px;
+    background-color: red;
+    position: relative;
+    left: .7rem;
+    width: 100%;
+}
+
+.content-discription1 {
+    width: 10rem !important;
+    height: 10rem!important;
+    z-index: 2;
+    transition: transform 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 1.2rem;
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 20rem;
+}
+
+.l-inc_transition {
+    transform: translateX(-10.7rem);
+}
+
+.l-year {
+    font-family: 'Rubik', sans-serif;
+    color: red;
+}
+
+.l-brief {
+    text-align: end;
+}
+
+.ver-line {
+    width: 3px;
+    background-color: red;
+    margin: 0px 11px;
+}
+.vacant1 {
+    width: 17rem;
+}
+
+.l-main-year {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    /* top: 4.2rem; */
+    right: 2rem;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    transition: border-radius 0.3s ease;
+}
+.l-main-year-transition{
+    border-radius: 30%;
+}
+.l-main-year * {
+    position: relative;
+    right: 18px;
+    transition: transform 0.3s ease;
+}
+
+.l-main-year img {
+    width: 40px;
+    height: 40px;
+}
+
+.l-main-circle-transition {
+    transform: translateX(38px);
+}
+@media(max-width:900px){
+    .l-hr-line-2 *,.l-hr-line-2{
+        display: none!important;
+    }
+    .vacant1 {
+        width: 14rem;
+    }
+    .content-discription1 {
+        position: relative;
+        right: 16.5rem;
+    }
+}
+@media(max-width:750px){
+    .left-content img {
+        width: 8rem!important;
+        height: 8rem!important;
+        position: relative;
+        left: .7rem;
+    }
+    .content-discription1 {
+        width: 8rem !important;
+        height: 8rem!important;
+        position: relative;
+        right: 14.3rem;
+    }
+    .l-year {
+        font-size: .9rem;
+    }
+    .l-brief {
+        font-size: .76rem;
+    }
+    .l-inc_transition {
+        transform: translateY(8rem);
+    }
+    .vacant1 {
+        width: 11rem;
+    }
+
+}

@@ -1,0 +1,269 @@
+/* ProfileCard.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import 'font-awesome/css/font-awesome.min.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border-radius: 12px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    /* Reduce the top margin to control the space between social icons */
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #45f3ff;
+    font-size: 24px;
+    margin: 5 60px;
+    /* Reduce the margin between social icons */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fffefe;
+}
+
+.card1-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100000px;
+
+}
+
+.card-container1 {
+    display: flex;
+    border-radius: 100000px;
+    /* width:1219px; */
+    padding-left: 1%;
+}
+
+.card1 {
+    position: relative;
+    width: 270px;
+    height: 225px;
+    background: #333;
+    transition: 0.5s;
+    margin-right: 20px;
+    /* Add margin to separate the cards */
+}
+
+.card1:last-child {
+    margin-right: 0;
+    /* Remove margin for the last card */
+}
+
+.card1:hover {
+    height: 245px;
+}
+
+.card1 .lines {
+    position: absolute;
+    inset: 0;
+    background: #000;
+    overflow: hidden;
+}
+
+.card1 .lines::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 120px;
+    background: linear-gradient(transparent,
+            #45f3ff,
+            #45f3ff,
+            #45f3ff,
+            transparent);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.card1 .lines::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background: #140327;
+}
+
+.card1 .imgBx {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background: #000;
+    transition: 0.5s;
+    z-index: 10;
+    overflow: hidden;
+    border-radius: 200px;
+}
+
+.card1:hover .imgBx {
+    width: 190px;
+    height: 170px;
+}
+
+.card1 .imgBx::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    width: 500px;
+    height: 150px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(transparent,
+            #ff3c7b,
+            #ff3c7b,
+            #ff3c7b,
+            transparent);
+    animation: animate2 6s linear infinite;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+.card1 .imgBx::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background: #292929;
+}
+
+.card1 .imgBx img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: 0.5s ease-in;
+}
+
+.card1 .imgBx:hover img {
+    filter: none;
+
+}
+
+.card1 .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.card1 .content .details {
+    padding-bottom: 80%;
+    text-align: center;
+    width: 90%;
+    transition: 0.5s;
+    transform: translateY(145px);
+}
+
+.card1:hover .content .details {
+    transform: translateY(110px);
+}
+
+.card1 .content .details h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #45f3ff;
+    line-height: 1.2em;
+}
+
+.card1 .content .details h2 span {
+    font-size: 0.75em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.card1 .content .details .data {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card1 .content .details .data h3 {
+    font-size: 1em;
+    color: #45f3ff;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+
+.card1 .content .details .data h3 span {
+    font-size: 0.85em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.card1 .content .details .actionBtn {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card1 .content .details .actionBtn button {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    background: #45f3ff;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.card1 .content .details .actionBtn button:nth-child(2) {
+    background: #fff;
+}
+
+.card1 .content .details .actionBtn button:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 320px) {
+    .card1:hover .imgBx {
+        width: 200px;
+        height: 200px;
+    }
+
+    .card .content .details .actionBtn {
+        gap: 20px;
+        flex-direction: justify;
+    }
+}
