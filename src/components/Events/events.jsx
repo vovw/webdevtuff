@@ -180,7 +180,7 @@ const Events = () => {
       for (let i = 0; i < leftMoves; i++) {
         if (!isAnimating) {
           moveLeftButtonRef.current.click();
-          await new Promise((resolve) => setTimeout(resolve, 1500)); // Adjust timing based on animation duration
+          await new Promise((resolve) => setTimeout(resolve, 400)); // Adjust timing based on animation duration
         }
       }
     };
@@ -189,7 +189,7 @@ const Events = () => {
       for (let i = 0; i < rightMoves; i++) {
         if (!isAnimating) {
           moveRightButtonRef.current.click();
-          await new Promise((resolve) => setTimeout(resolve, 1500)); // Adjust timing based on animation duration
+          await new Promise((resolve) => setTimeout(resolve, 150)); // Adjust timing based on animation duration
         }
       }
     };
@@ -306,7 +306,7 @@ const Events = () => {
       if (!isAnimating) {
         moveRightButtonRef.current.click();
       }
-    }, 5000); // Click the button every 5 seconds
+    }, 20000); // Click the button every 5 seconds
     window.addEventListener('keydown', handleKeyboardEvents);
     window.addEventListener('resize', handleResize);
     window.addEventListener('wheel', handleScroll);
@@ -323,7 +323,7 @@ const Events = () => {
 
 
   return (
-    <div>
+    <div style={{position:'fixed',left:'0px',top:'0px'}}>
       <div className="events-container">
         <select
           style={{
