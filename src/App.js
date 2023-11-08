@@ -26,7 +26,7 @@ function App() {
         {eventsData.map((e) => <Route exact path={'/events/' + e.title} element={<EventInfo title={e.title} imgname={e.imgname} eventDesc={e.description} venue={e.venue} date={e.date} price={e.price} />} />)}
         <Route />
       </Routes>
-      <Fotter />
+      {/* <Fotter /> */}
     </BrowserRouter>
   );
 }
