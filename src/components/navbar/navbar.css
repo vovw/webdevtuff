@@ -1,70 +1,74 @@
-/* Common styles for both desktop and mobile */
-body {
-    background-color: black !important;
-    margin: 0 0 auto;
+body{
+    background-color: black;
 }
-
-.navbar-border {
-    height: 60px;
-    /* Adjust the height as needed */
+#Navbar {
+    background-color: transparent;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 100;
+    z-index: 1000;
 }
-
-/* Define the gradient for the hover effect */
-.navbar-link:hover {
-    fill: url(#navbar-hover-gradient);
+.nav-logo{
+    border-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) 1;
+    border-bottom-width: 0.1rem;
+    border-bottom-style: solid;
 }
+.nav-logo img {
+    width: 3rem;
+}
+.diagonal-div{
+    width: 3rem;
+}
+.diagonal-div p {
+   /* width: .009rem; */
+   height: 100%;
+   border-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) 1;
+   border-width: 0.01rem;
+   border-style: solid;
+    margin: 0 1.2rem;
+    transform: rotate(45deg) scale(1.41);
+    transform-origin: center;
+}
+.nav-items{
+    border-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) 1;
+    border-top-width: 0.1rem;
+    border-top-style: solid;
+}
+.nav-elements a{
+    cursor: pointer;
+}
+.nav-elements a:hover{
+background: -webkit-linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-toggle{
+    overflow-x: hidden;
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    top: 4rem;
+    left:0;
+    right: 0;
+    z-index: 10000;
+}
+.nav-toggle div a{
+    background-color: black;
+    color: white;
+    border-radius: 1.2rem;
 
-/* Media query for screens with a maximum width of 768px (mobile screens) */
-@media screen and (max-width: 768px) {
-    .navbar-border {
-        padding-left: 10px;
-        /* Adjust the padding for smaller screens */
-    }
-
-    .navbar-link {
-        font-size: 24px;
-        /* Adjust the font size for smaller screens */
-    }
-
-    /* Shift the navbar links to the left using transform */
-    .navbar-link {
-        transform: translateX(-10px);
-        /* Adjust the horizontal position as needed */
-    }
-
-    /* Adjust the positions for equal gaps */
-    .navbar-link:nth-child(1) {
-        transform: translateX(0px);
-        /* Adjust the horizontal position as needed */
-    }
-
-    .navbar-link:nth-child(2) {
-        transform: translateX(90px);
-        /* Adjust the horizontal position as needed */
-    }
-
-    .navbar-link:nth-child(3) {
-        transform: translateX(270px);
-        /* Adjust the horizontal position as needed */
-    }
-
-    .navbar-link:nth-child(4) {
-        transform: translateX(270px);
-        /* Adjust the horizontal position as needed */
-    }
-
-    .navbar-link:nth-child(5) {
-        transform: translateX(360px);
-        /* Adjust the horizontal position as needed */
-    }
-
-    .navbar-link:nth-child(6) {
-        transform: translateX(480px);
-        /* Adjust the horizontal position as needed */
-    }
+}
+.inner-nav-toggle{
+    
+    transform: translateX(15rem);
+    transition: transform 0.5s ease;
+    z-index: 10000;
+}
+.nav-toggle-vis{
+    overflow: hidden;
+    transform: translateX(-1rem);
+    transition: transform 0.5s ease;
+    z-index: 10000;
 }
