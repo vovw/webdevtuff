@@ -3,7 +3,7 @@ import ProfileCard from './ProfileCard';
 import ProfileCard1 from './ProfileCard1';
 import ProfileCard2 from './ProfileCard2';
 import './team.css';
-
+import Fotter from '../fotter/fotter';
 const cardData = [
   {
     name: "Aditya Chakraborty",
@@ -271,6 +271,7 @@ const adminData2 = [
 
 function Team() {
   return (
+    <>
     <div className="App">
       <br /><br /><h2>Secretaries</h2><br /><br /><br /><br />
       <div className="card-container">
@@ -357,6 +358,8 @@ function Team() {
       </div>
 
     </div>
+    <Fotter position="static" />
+    </>
   );
 
 }
