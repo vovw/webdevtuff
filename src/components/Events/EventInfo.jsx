@@ -32,6 +32,22 @@ export default function EventInfo ({ title, imgname, eventDesc, venue, date, pri
                         <span>Prize: {price}</span>
                     </div>
                 </div>
+                <div className="coordinators-section">
+                    <div className="coordinator-label">Event Coordinators</div>
+                    <div className="coordinator-container">
+                        <div className="coordinator">
+                            <div className="coordinator-name">Vedant</div>
+                            <div className="coordinator-phone">123-456-7890</div>
+                        </div>
+                    </div>
+                    <div className="coordinator-container">
+                        <div className="coordinator">
+                            <div className="coordinator-name">Aishwarya</div>
+                            <div className="coordinator-phone">987-654-3210</div>
+                        </div>
+                    </div>
+                    {/* Add more coordinators as needed */}
+                </div>
                 <div style={{backgroundColor: 'black'}}>
                     <Accordion />
                 </div>
