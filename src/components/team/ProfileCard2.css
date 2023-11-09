@@ -4,13 +4,13 @@
 @import 'font-awesome/css/font-awesome.min.css';
 
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     border-radius: 12px;
-}
+} */
 
 .social-icons {
     display: flex;
@@ -27,13 +27,13 @@
     /* Reduce the margin between social icons */
 }
 
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #fffefe;
-}
+} */
 
 .card2-container {
     display: flex;
