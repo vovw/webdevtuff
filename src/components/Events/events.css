@@ -25,7 +25,7 @@
   top: 4rem;
 }
 #event-tab div {
-  margin-top: 4%;
+  margin-top: 1%;
   padding: 8px;
   cursor: pointer;
   white-space: nowrap;
@@ -48,6 +48,7 @@
 @media screen and (max-width: 1200px){
   .planet{
     width: 33%;
+    top : 40%;
   }
 }
 

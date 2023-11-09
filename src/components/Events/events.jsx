@@ -333,6 +333,7 @@ const Events = () => {
               style={{
                 textShadow: element.title === data[currentIndex].title ? '2px 2px 4px rgba(0, 0, 0, 0.5)' : 'none',
                 backgroundColor: element.title === data[currentIndex].title ? 'rgba(0,0,255,0.5)' : 'transparent',
+                borderRadius:'1rem'
               }}
             >
               {element.title}
