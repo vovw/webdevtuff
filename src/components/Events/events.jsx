@@ -180,7 +180,7 @@ const Events = () => {
       for (let i = 0; i < leftMoves; i++) {
         if (!isAnimating) {
           moveLeftButtonRef.current.click();
-          await new Promise((resolve) => setTimeout(resolve, 1500)); // Adjust timing based on animation duration
+          await new Promise((resolve) => setTimeout(resolve, 400)); // Adjust timing based on animation duration
         }
       }
     };
@@ -189,7 +189,7 @@ const Events = () => {
       for (let i = 0; i < rightMoves; i++) {
         if (!isAnimating) {
           moveRightButtonRef.current.click();
-          await new Promise((resolve) => setTimeout(resolve, 1500)); // Adjust timing based on animation duration
+          await new Promise((resolve) => setTimeout(resolve, 150)); // Adjust timing based on animation duration
         }
       }
     };
@@ -306,7 +306,7 @@ const Events = () => {
       if (!isAnimating) {
         moveRightButtonRef.current.click();
       }
-    }, 5000); // Click the button every 5 seconds
+    }, 20000); // Click the button every 20 seconds
     window.addEventListener('keydown', handleKeyboardEvents);
     window.addEventListener('resize', handleResize);
     window.addEventListener('wheel', handleScroll);
@@ -323,47 +323,17 @@ const Events = () => {
 
 
   return (
-    <div>
+    <div style={{position:'fixed',left:'0px',top:'0px'}}>
       <div className="events-container">
-        <select
-          style={{
-            display: "none",
-          }}
-          className="dropdown"
-          value={data[currentIndex].title}
-          onChange={(e) => setCurrentEvent(e.target.value)}
-          onClick={() => {
-            document.getElementById("options").style.display = "block";
-          }}
-        >
-          {data.map((element) => (
-            <option id={element.id} value={element.title}>
-              {element.title}
-            </option>
-          ))}
-        </select>
-
-        <div
-          id="options"
-          style={{
-            display: "flex",
-            backgroundColor: "transparent",
-            color: "grey",
-            border: "none",
-            flexDirection: "row", // Align items horizontally
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-          }}
-        >
+        <div id="event-tab">
           {data.map((element) => (
             <div
               key={element.id}
               onClick={(e) => setCurrentEvent(e.target.innerText)}
               style={{
-                padding: "8px",
-                cursor: "pointer",
-                whiteSpace: "nowrap", // Avoid wrapping of long text
                 textShadow: element.title === data[currentIndex].title ? '2px 2px 4px rgba(0, 0, 0, 0.5)' : 'none',
                 backgroundColor: element.title === data[currentIndex].title ? 'rgba(0,0,255,0.5)' : 'transparent',
+                borderRadius:'1rem'
               }}
             >
               {element.title}
@@ -373,9 +343,7 @@ const Events = () => {
 
         <button className="control-btn" style={{ visibility: "hidden" }} onClick={handleMoveRight} ref={moveLeftButtonRef}>Move left</button>
         <button className="control-btn" onClick={handleMoveLeft} ref={moveRightButtonRef} style={{ visibility: "hidden" }}>Move Right</button>
-        {/* {data.map((item,index) => (
-        console.log(item.id)
-      ))} */}
+
         {data.map((item, index) => (
           <a href={"/events/" + data[currentIndex].title}>
             <motion.div
@@ -383,10 +351,6 @@ const Events = () => {
               initial={(item.id < 5 ? initials[item.id] : initials[4])}
               transition={{ duration: 1 }}
               className="planet"
-
-            // style={{
-            //   width: item.id===controlIndex?'28%':'20%',
-            // }}
             >
               <img src={currentIndex === item.id ? require(`../../img/${data[item.id].imgname}`) : require(`../../img/planet${item.id % 5}.png`)}
                 alt={item.title} />
