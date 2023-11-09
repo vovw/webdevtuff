@@ -31,7 +31,9 @@ export default function Navbar() {
           </div>
         </div>
       </section>
-      <div style={{zIndex:toggle?10:-10}} className="nav-toggle flex flex-col items-end mt-2">
+      <div style={{
+          zIndex:toggle?10:-10
+        }} className="nav-toggle flex flex-col items-end mt-2">
         <div className={toggle?" nav-toggle-vis flex flex-col items-start gap-2 mx-6 w-36 sm:hidden ":" inner-nav-toggle flex flex-col items-start gap-2 mx-6 w-36 sm:hidden "}>
           <a className="flex flex-row justify-around w-36 py-1" href="/"><p>Home</p><AiOutlineArrowRight size={'1.2rem'} /></a>
           <a className="flex flex-row justify-around w-36 py-1" href="/events"><p>Events</p><AiOutlineArrowRight size={'1.2rem'}/></a>

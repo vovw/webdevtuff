@@ -4,7 +4,7 @@ const EventItem = (props) => {
   return (
   <a href={props.href}>
   
-  <div className="event-popup">
+  <div style={{position:'fixed',bottom:0}} className="event-popup">
       <div className="popup-header">
         <a>{props.title}</a>
       </div>
