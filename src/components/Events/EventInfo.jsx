@@ -25,7 +25,7 @@ export default function EventInfo ({ title, imgname, eventDesc, venue, date, pri
                     </div>
                     <div className='info-item'>
                         <img src={require('../../img/icons8-location-64-white.png')} alt=""  className='info-icon'/>
-                        <span>Venue:{venue}</span>
+                        <span>Venue:{'\n'}{venue}</span>
                     </div>
                     <div className='info-item'>
                         <img src={require('../../img/icons8-money-50-white.png')} alt=""  className='info-icon'/>

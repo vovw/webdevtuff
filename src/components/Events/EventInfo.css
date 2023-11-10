@@ -66,7 +66,7 @@
 
 .info-bar {
     margin-left: 10%;
-    width: fit-content;
+    width: 60%;
     background: linear-gradient(90deg, rgba(255,255,255,0.3), transparent);
     color: white;
     height: 10%;
