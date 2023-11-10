@@ -1,6 +1,6 @@
 import React from "react";
 import "./gls.css";
-
+import Fotter from "../fotter/fotter";
 const cardData = [
   {
     name: "Dr. A.P.J Abdul Kalam",
@@ -109,6 +109,7 @@ const cardData = [
 
 function Gls() {
   return (
+    <>
     <div>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
       <h1 className="text-8xl">Our Past Speakers</h1>
@@ -129,6 +130,8 @@ function Gls() {
         </div>
       </section>
     </div>
+    <Fotter position="static" />
+    </>
   );
 }
 

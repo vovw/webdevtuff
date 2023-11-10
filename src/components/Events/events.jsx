@@ -3,6 +3,7 @@ import "./events.css";
 import { motion, useAnimation } from "framer-motion";
 import EventItem from "./EventItem/eventitem";
 import eventsData from "./data";
+import Fotter from "../fotter/fotter";
 const Events = () => {
   const data = eventsData
   const moveRightButtonRef = useRef(null);
@@ -370,6 +371,7 @@ const Events = () => {
         ))}
       </div>
       <EventItem title={data[currentIndex].title} imgname={data[currentIndex].imgname} brief={data[currentIndex].brief} href={'/events/' + data[currentIndex].title} />
+      <Fotter position="absolute" />
     </div>
   )
 };
