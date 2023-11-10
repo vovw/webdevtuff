@@ -23,7 +23,7 @@ function App() {
         <Route exact path='/events' element={<Events />} />
         <Route exact path='/gls' element={<Gls />} />
         <Route exact path='/team' element={<Team />} />
-        {eventsData.map((e) => <Route exact path={'/events/' + e.title} element={<EventInfo title={e.title} imgname={e.imgname} eventDesc={e.description} venue={e.venue} date={e.date} price={e.price} />} />)}
+        {eventsData.map((e) => <Route exact path={'/events/' + e.title} element={<EventInfo title={e.title} imgname={e.imgname} eventDesc={e.description} venue={e.venue} date={e.date} price={e.price} coordinator1={e.coordinator1} coordinator2={e.coordinator2} contact1={e.contact1} contact2={e.contact2} />} />)}
         <Route />
       </Routes>
       {/* <Fotter /> */}
