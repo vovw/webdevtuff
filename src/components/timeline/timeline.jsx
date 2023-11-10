@@ -1,3 +1,4 @@
+import Fotter from "../fotter/fotter";
 import LeftSide from "./left-side/left-side";
 import ImageCarousel from "./main-animation/ImageCarousel";
 import RightSide from "./right-side/right-side";
@@ -49,6 +50,7 @@ let Timeline = () => {
                 </div>
             </div>
         </section>
+        <Fotter position="static" />
         </>
     )
 }
