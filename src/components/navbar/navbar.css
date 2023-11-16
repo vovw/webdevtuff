@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 #Navbar {
-    background-color: transparent;
+    /* background-color: transparent; */
     color: white;
     font-family: 'Orbitron', sans-serif;
     position: fixed;
@@ -10,6 +10,9 @@ body{
     left: 0;
     right: 0;
     z-index: 1000;
+    backdrop-filter: blur(6px) saturate(180%);
+    -webkit-backdrop-filter: blur(6px) saturate(180%);
+    background-color: transparent;
 }
 .nav-logo{
     border-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) 1;

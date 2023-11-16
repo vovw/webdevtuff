@@ -1,11 +1,11 @@
 import React from 'react';
 // import Head from 'next/head';
-// import styles from '../../styles/terms.module.css';
+import styles from './terms.module.css';
 
 const TandC = () => (
   <>
     {/* <Head>
-      <title>Terms and Conditions | Technovanza VJTI 2022-23</title>
+      <title>Terms and Conditions | Technovanza VJTI 2023-24</title>
       <link rel="icon" href="/favicon.ico" /> */}
 
       {/* Meta tags */}
@@ -32,8 +32,8 @@ const TandC = () => (
       <meta property="twitter:url" content="https://technovanza.org" />
       <meta property="twitter:title" content="Terms and Conditions | Technovanza VJTI 2022-23" />
       <meta property="twitter:description" content="Technovanza VJTI is the technical fest for extravaganza of fun and astonishing events, Guest Lectures, amazing prizes, and much more." />
-      <meta property="twitter:image" content="https://technovanza.org/logo.png" /> */}
-    {/* </Head>
+      <meta property="twitter:image" content="https://technovanza.org/logo.png" />
+    </Head> */}
     <div className={styles.container}>
       <h1 className={styles.heading1}>Terms and Conditions</h1>
       <p className={styles.para}>Last updated: February 1, 2023</p>
@@ -116,7 +116,7 @@ const TandC = () => (
       <p className={styles.para}>We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days&apos; notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.</p>
       <p className={styles.para}>By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.</p>
 
-    </div> */}
+    </div>
   </>
 );
 

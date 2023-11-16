@@ -1,11 +1,11 @@
 import React from 'react';
 // import Head from 'next/head';
-// import styles from '../../styles/privacy.module.css';
+import styles from './privacy.module.css';
 
 const Privacy = () => (
   <>
     {/* <Head>
-      <title>Privacy Policy | Technovanza VJTI 2022-23</title>
+      <title>Privacy Policy | Technovanza VJTI 2023-24</title>
       <link rel="icon" href="/favicon.ico" /> */}
 
       {/* Meta tags */}
@@ -33,7 +33,7 @@ const Privacy = () => (
       <meta property="twitter:title" content="Privacy Policy | Technovanza VJTI 2022-23" />
       <meta property="twitter:description" content="Technovanza VJTI is the technical fest for extravaganza of fun and astonishing events, Guest Lectures, amazing prizes, and much more." />
       <meta property="twitter:image" content="https://technovanza.org/logo.png" />
-    </Head>
+    </Head> */}
     <div className={styles.container}>
 
       <h1 className={styles.heading1}>Privacy Policy for Technovanza VJTI</h1>
@@ -88,7 +88,7 @@ const Privacy = () => (
       <p className={styles.para}>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
 
       <p className={styles.para}>Technovanza VJTI does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
-    </div> */}
+    </div>
   </>
 );
 
