@@ -21,7 +21,7 @@ export default function Navbar() {
               <a href="/events"><p>Events</p></a>
               <a href="/gls"><p>GLS</p></a>
               <a href="/gallery"><p>Gallery</p></a>
-              <a href="/team"><p>Team</p></a>
+              <a href="/exhibition"><p>Exhibition</p></a>
               <a href="/login"><p>Login</p></a>
             </div>
             <div className="flex flex-row justify-center items-center sm:hidden px-6">
@@ -37,7 +37,7 @@ export default function Navbar() {
           <a className="flex flex-row justify-around w-36 py-1" href="/events"><p>Events</p><AiOutlineArrowRight size={'1.2rem'}/></a>
           <a className="flex flex-row justify-around w-36 py-1" href="/gls"><p>GLS</p><AiOutlineArrowRight size={'1.2rem'}/></a>
           <a className="flex flex-row justify-around w-36 py-1" href="/gallery"><p>Gallery</p><AiOutlineArrowRight size={'1.2rem'}/></a>
-          <a className="flex flex-row justify-around w-36 py-1" href="/team"><p>Team</p><AiOutlineArrowRight size={'1.2rem'}/></a>
+          <a className="flex flex-row justify-around w-36 py-1" href="/exhibition"><p>exhibition</p><AiOutlineArrowRight size={'1.2rem'}/></a>
           <a className="flex flex-row justify-around w-36 py-1" href="/login"><p>Login</p><AiOutlineArrowRight size={'1.2rem'}/></a>
         </div>
       </div>
