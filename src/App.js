@@ -4,6 +4,7 @@ import Timeline from "./components/timeline/timeline";
 import Home from './components/Home/home';
 import Events from './components/Events/events';
 import Navbar from "./components/navbar/navbar";
+import Key_high from "./components/key_highlightssec/key_high";
 import Fotter from './components/fotter/fotter';
 import Gls from './components/gls/gls'
 import eventsData from './components/Events/data';
@@ -18,6 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path='/gallery' element={<Timeline />} />
@@ -29,6 +31,7 @@ function App() {
         {eventsData.map((e) => <Route exact path={'/events/' + e.title} element={<EventInfo title={e.title} imgname={e.imgname} eventDesc={e.description} venue={e.venue} date={e.date} price={e.price} coordinator1={e.coordinator1} coordinator2={e.coordinator2} contact1={e.contact1} contact2={e.contact2} />} />)}
         <Route />
       </Routes>
+      <Key_high/>
     </BrowserRouter>
   );
 }
