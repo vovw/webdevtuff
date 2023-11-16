@@ -1,5 +1,5 @@
 :root {
-    --background-dark: #f3f4f7;
+    --background-dark: #ffffff;
     --text-light: rgba(255, 255, 255, 0.6);
     --text-lighter: rgba(255, 255, 255, 0.9);
     --spacing-s: 0.75rem;
@@ -10,23 +10,23 @@
     --width-container: 75rem;
 }
 
-/* * {
+* {
     border: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  html {
+html {
     height: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 0.875rem;
-  }
+}
 
-  body {
+body {
     height: 100%;
     margin: 0;
-  } */
+}
 
 .hero-section {
     align-items: flex-start;
@@ -90,11 +90,15 @@
 .card:hover .card__background {
     transform: scale(1.05) translateZ(0);
 }
-
+/*
 .card-grid:hover > .card:not(:hover) .card__background {
     filter: brightness(0.6) saturate(0) contrast(1) blur(15px);
 }
+ */
 
+.card-grid:hover > .card:not(:hover) .card__background {
+    filter: brightness(0.6) saturate(0) contrast(1);
+}
 .card__content {
     left: 0;
     padding: var(--spacing-l);
@@ -122,27 +126,6 @@
     height: 8vw;
 }
 
-.card__url {
-    color: black;
-    font-family: "Oxanium", Arial, sans-serif;
-    font-size: 1rem;
-    margin-top: 8rem;
-    margin-bottom: 0rem;
-    text-transform: uppercase;
-    background-color: transparent;
-    border: solid;
-    color: white;
-    cursor: pointer;
-    padding: 12px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 2.5rem;
-    position: relative;
-    bottom: -6rem;
-}
-
 .heading1 {
     font-size: 6rem;
     font-family: "Orbitron", sans-serif;
@@ -158,18 +141,39 @@
     }
 
     .card-grid {
-        grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: var(--spacing-s);
-        grid-row-gap: var(--spacing-s);
+        display: flex;
+        flex-direction: column;
+
+        align-items: center; /* Center the content horizontally */
+        height: 100vh; /* Set the height to 100% of the viewport height */
+    }
+
+    .card {
+        margin-bottom: var(--spacing-l);
+    }
+
+    .card__content {
+        padding: var(--spacing-m);
     }
 
     .card__heading {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         height: auto;
     }
 
     .card__category {
-        font-size: 0.8rem;
+        font-size: 1rem;
         height: auto;
+    }
+
+    .card__url {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .heading1 {
+        font-size: 2.5rem;
     }
 }

@@ -135,13 +135,6 @@ function Gls() {
                 <div className="card__content">
                   <h3 className="card__heading">{card.name}</h3>
                   <p className="card__category">{card.category}</p>
-                  <button
-                    className="card__url"
-                    role="link"
-                    onClick={() => (window.location.href = card.link)}
-                  >
-                    More info
-                  </button>
                 </div>
               </a>
             ))}
@@ -152,5 +145,4 @@ function Gls() {
     </>
   );
 }
-
 export default Gls;
