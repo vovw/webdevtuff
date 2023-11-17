@@ -78,18 +78,17 @@ export default function Key_high() {
         </div>
       </section>
       <section className="aftermovie h-screen bg-black">
-        <div className="h-full">
-          <iframe
-            width="99%"
-            height="100%"
-            src="https://www.youtube.com/embed/PdZMegceT_E?si=Fdaxt-nB9Jcuw7y0"
-            title="YouTube video player"
-            frameBorder={0}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen=""
-          />
-        </div>
-      </section>
+ <div className="h-full container">
+   <iframe
+     className="responsive-iframe"
+     src="https://www.youtube.com/embed/PdZMegceT_E?si=Fdaxt-nB9Jcuw7y0"
+     title="YouTube video player"
+     frameBorder={0}
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+     allowFullScreen=""
+   />
+ </div>
+</section>
     </>
   );
 }

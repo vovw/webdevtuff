@@ -9,7 +9,9 @@ export default function Navbar() {
       <section id="Navbar">
         <div className="navbar flex flex-row justify-center py-2">
           <div className="nav-logo flex flex-row md:px-0 lg:px-5 xl:px-20 items-center">
+            <a href="/">
             <img src={require('../../img/techno_img.png')} />
+            </a>
             <p className="text-2xl sm:text-xl md:text-3xl">Technovanza</p>
           </div>
           <div className="diagonal-div flex flex-row justify-center items-center">

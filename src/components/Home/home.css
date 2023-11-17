@@ -26,6 +26,7 @@
     animation-name: txcolor;
     animation-duration: 16s;
     animation-iteration-count: infinite;
+    font-size: 8vw;
 }
 @keyframes txcolor {
     /* 0% {      background-position: 100% 0%;    } */
@@ -36,3 +37,12 @@
 /* .vidbg{
     
 } */
+@media (max-width: 768px) {
+    .landing {
+        background-attachment: scroll;
+    }
+
+    .landing > div > h2 {
+        font-size: 1.5em; 
+    }
+}
