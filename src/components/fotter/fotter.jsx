@@ -7,7 +7,9 @@ export default function Fotter({ position }) {
         <div className="fotter-content flex flex-col md:flex-row items-center justify-center my-4 gap-2 md:gap-0">
           <div className="flex flex-row main-left-fotter pt-1">
             <div className="fotter-left hidden  xl:flex flex-row px-2 md:px-4 lg:px-8">
+              <a href="/">
               <img src={require("../../img/techno_img.png")} alt="Logo" className="logo" />
+              </a>
               <span className="technovanza">Technovanza</span>
             </div>
             <div className="rules-div flex flex-col text-xs md:text-md justify-center items-center pt-2 lg:pt-0">
