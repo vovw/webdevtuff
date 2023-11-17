@@ -15,8 +15,9 @@ export default function Navbar() {
       </div>
 
     </section>
-    <Key_high />
-    <Fotter position="static" />
+    // <Fotter position="static" />
 </>
   );
+
 }
+
