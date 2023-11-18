@@ -52,7 +52,7 @@ class Hosp extends React.Component {
      <button className="info-button">More info</button>
    </div>
    <div className="container">
-     <h2>Frequently Asked Questions</h2>
+     <h2 style={{fontSize: '2rem'}}>Frequently Asked Questions</h2>
      <div className="accordion">
        <div className="accordion-item">
        <button id="accordion-button-1" aria-expanded={this.state.isOpen[0]} onClick={() => this.toggleAccordion(0)}>
