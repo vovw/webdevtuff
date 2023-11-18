@@ -26,7 +26,7 @@ const Accordion = () => {
               onClick={() => toggleAccordion(index)}
               aria-expanded={activeItem === index ? 'true' : 'false'}
             >
-              <span className="accordion-title">{item.title}</span>
+             <span className="accordion-title" style={{fontSize: '1.2rem'}}>{item.title}</span>
               <span className="icon" aria-hidden="true"></span>
             </button>
             <div

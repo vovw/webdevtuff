@@ -28,6 +28,36 @@
     animation-iteration-count: infinite;
     font-size: 8vw;
 }
+.button-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   }
+   
+   .btn-gradient {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.5s;
+   }
+   
+   .btn-gradient:hover {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+   }
+   
+   .btn-gradient--color__1 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+   }
+   
+   .btn-gradient--color__2 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+   }
+   
 @keyframes txcolor {
     /* 0% {      background-position: 100% 0%;    } */
     /* 35% {      background-position: 0% 50%;    } */

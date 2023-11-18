@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
+.accordion .accordion-content p {
+    font-family: Arial, Helvetica, sans-serif
+}
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Agdasima&family=Orbitron&display=swap');
+
+body {
+ margin: 0;
+ padding: 0;
+ background: #000;
+ color: #fff;
+ display: flex;
+ min-height: 100vh;
+ font-size: 16px; /* Base font size */
+}
+
+.container {
+ margin: 0 auto;
+ padding: 4rem;
+ font-family: "Orbitron", sans-serif;
+ align-items: center;
+}
+
+.container h1 {
+ text-align: center;
+ font-size: 3rem; /* 3 times the base font size */
+}
+
+.accordion .accordion-item {
+ border-bottom: 1px solid #e5e5e5;
+ font-family: "Orbitron", sans-serif;
+}
+
+.accordion .accordion-item button {
+ position: relative;
+ display: block;
+ text-align: left;
+ width: 100%;
+ padding: 1em 0;
+ color: #7288a2;
+ font-size: 1.6rem; /* 1.15 times the base font size */
+ font-weight: 400;
+ border: none;
+ background: none;
+ outline: none;
+ font-family: "Orbitron", sans-serif;
+}
+
+.accordion button {
+ position: relative;
+ display: block;
+ text-align: left;
+ width: 100%;
+ padding: 1em 0;
+ color: #7288a2;
+ font-size: 1.6rem; /* 1.15 times the base font size */
+ font-weight: 400;
+ border: none;
+ background: none;
+ outline: none;
+ font-family: "Orbitron", sans-serif;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+ cursor: pointer;
+ color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+ cursor: pointer;
+ color: #03b5d2;
+ border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+ padding: 1em 1.5em 1em 0;
+ font-family: "Orbitron", sans-serif;
+}
+
+.accordion button .icon {
+ display: inline-block;
+ position: absolute;
+ top: 18px;
+ right: 0;
+ width: 22px;
+ height: 22px;
+ border: 1px solid;
+ border-radius: 22px;
+ font-family: "Orbitron", sans-serif;
+}
+
+.accordion button .icon::before {
+ display: block;
+ position: absolute;
+ content: "";
+ top: 9px;
+ left: 5px;
+ width: 10px;
+ height: 2px;
+ background: currentColor;
+ font-family: "Orbitron", sans-serif;
+}
+
+.accordion button .icon::after {
+ display: block;
+ position: absolute;
+ content: "";
+ top: 5px;
+ left: 9px;
+ width: 2px;
+ height: 10px;
+ background: currentColor;
+ font-family: "Orbitron", sans-serif;
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+.accordion button[aria-expanded="true"] {
+ color: #03b5d2;
+}
+
+.accordion button[aria-expanded="true"] .icon::after {
+ width: 0;
+}
+
+.accordion .accordion-content {
+ opacity: 0;
+ max-height: 0;
+ overflow: hidden;
+ transition: opacity 1s ease-in-out, max-height 1s ease-in-out; /* Transition both opacity and max-height */
+ will-change: opacity, max-height;
+ font-family: "Orbitron", sans-serif;
+}
+
+.accordion button[aria-expanded="true"] + .accordion-content {
+ opacity: 1;
+ max-height: 9em;
+ transition: opacity 1s ease-in-out, max-height 1s ease-in-out; /* Transition both opacity and max-height */
+ will-change: opacity, max-height;
+ font-family: "Orbitron", sans-serif;
+}
+
+.accordion .accordion-content p {
+    font-size: 1.4rem; /* 1.25 times the base font size */
+    font-weight: 300;
+    font-family: 'Agdasima', sans-serif;
+    margin: 2em 0;
+    min-width: fit-content;
+   }
+   
+
+.registration-steps-container {
+ text-align: center;
+ width: 70%;
+ margin: 0 auto;
+}
+
+.registration-step {
+ font-family: "Orbitron", sans-serif;
+ margin: 20px 0;
+ padding: 20px;
+ border-radius: 5px;
+ background: linear-gradient(135deg, #0074e4, #0a1535);
+ color: #fff;
+ font-size: 2rem;
+}
+
+.step-icon {
+ 
+ font-weight: bold;
+}
+
+.step-description {
+ margin-top: 10px;
+
+ font-weight: bold;
+}
+
+
+
+h3.steps {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 12rem;
+}
+.buttons {
+  text-align: center;
+  margin-top: 2rem;
+  
+}
+
+.avail-button,
+.info-button {
+  padding: 10px 20px;
+  margin: 5px;
+  background: black;
+  color: #fff;
+  border: white 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.2rem;
+  transition: background 0.3s;
+}
+
+.avail-button:hover,
+.info-button:hover {
+  background: linear-gradient(135deg, #0a1535, #0074e4);
+}
+/* Add this CSS for responsiveness */
+
+.container {
+  width: 100%;
+  max-width: 48rem;
+  padding: 2rem;
+}
+
+.accordion .accordion-item {
+  width: 100%;
+}
+
+.accordion .accordion-item button {
+  width: 100%;
+  text-align: center;
+}
+
+.accordion .accordion-item button {
+  font-size: 1rem;
+}
+
+.accordion button[aria-expanded="true"] + .accordion-content {
+  max-height: none;
+  font-size: 1rem;
+}
+
+.registration-steps-container {
+  width: 100%;
+  max-width: 70%;
+}
+
+.step-icon {
+  font-size: 1.5rem;
+}
+
+.step-description {
+  font-size: 1rem;
+}
+
+h3.steps {
+  margin-top: 2rem;
+}
+
+buttons {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.avail-button,
+.info-button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
+.container h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+  }
+}
