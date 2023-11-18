@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./spons.css";
+import Fotter from "../fotter/fotter";
 
 const sponsors = [
   { name: "Main Sponsor", description: "Exclusive benefits for our main sponsor...", image: "main-sponsor.png" },
@@ -20,107 +21,86 @@ const sponsors = [
 ];
 
 const Appp = () => {
-  const [lastScrollPosition, setLastScrollPosition] = useState(0);
-  const sponsorshipSectionRef = useRef(null);
+ const [lastScrollPosition, setLastScrollPosition] = useState(0);
+ const sponsorshipSectionRef = useRef(null);
 
-  useEffect(() => {
-    createSponsorElements();
-    window.addEventListener("scroll", handleScroll);
+ useEffect(() => {
+   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+   return () => {
+     window.removeEventListener("scroll", handleScroll);
+   };
+ }, []);
 
-  const createSponsorElements = () => {
-    const sponsorshipSection = sponsorshipSectionRef.current;
-    const mainSponsorGroup = document.querySelector(".sponsor-group");
+ const createSponsorElement = (sponsor) => {
+   return (
+     <div className="sponsor" key={sponsor.name}>
+       {sponsor.image && <img src={sponsor.image} alt={sponsor.name} />}
+       <h2>{sponsor.name}</h2>
+       <p>{sponsor.description}</p>
+     </div>
+   );
+ };
 
-    const mainSponsor = sponsors.shift();
-    const mainSponsorElement = createSponsorElement(mainSponsor);
-    mainSponsorGroup.appendChild(mainSponsorElement);
+ const handleScroll = () => {
+   const currentScrollPosition = window.scrollY;
 
-    sponsors.forEach((sponsor, index) => {
-      if (index % 2 === 0) {
-        const sponsorGroup = document.createElement("div");
-        sponsorGroup.className = "sponsor-group";
-        sponsorshipSection.appendChild(sponsorGroup);
+   if (currentScrollPosition > lastScrollPosition) {
+     animateSponsors();
+   } else {
+     animateSponsorsUp();
+   }
+
+   setLastScrollPosition(currentScrollPosition);
+ };
+
+ const animateSponsorsUp = () => {
+  const sponsorElements = document.querySelectorAll(".sponsor");
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("appear");
       }
-
-      const sponsorElement = createSponsorElement(sponsor);
-      const lastSponsorGroup = document.querySelector(".sponsor-group:last-child");
-      lastSponsorGroup.appendChild(sponsorElement);
     });
-  };
+  }, {
+    threshold: 0.5
+  });
 
-  const createSponsorElement = (sponsor) => {
-    return (
-      <div className="sponsor" key={sponsor.name}>
-        <h2>{sponsor.name}</h2>
-        {sponsor.image && <img src={sponsor.image} alt={sponsor.name} />}
-        <p>{sponsor.description}</p>
-        <p className="sponsor-text">Contact us for more information</p>
-      </div>
-    );
-  };
+  sponsorElements.forEach(sponsor => {
+    observer.observe(sponsor);
+    sponsor.classList.remove("appear");
+  });
+};
 
-  const handleScroll = () => {
-    const currentScrollPosition = window.scrollY;
-
-    if (currentScrollPosition > lastScrollPosition) {
-      animateSponsors();
-    } else {
-      animateSponsorsUp();
-    }
-
-    setLastScrollPosition(currentScrollPosition);
-  };
-
-  const animateSponsorsUp = () => {
-    const sponsorElements = document.querySelectorAll(".sponsor");
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("appear");
-        }
-      });
-    }, {
-      threshold: 0.5
+const animateSponsors = () => {
+  const sponsorElements = document.querySelectorAll(".sponsor");
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("appear");
+      }
     });
+  }, {
+    threshold: 0.5
+  });
 
-    sponsorElements.forEach(sponsor => {
-      observer.observe(sponsor);
-      sponsor.classList.remove("appear");
-    });
-  };
+  sponsorElements.forEach(sponsor => {
+    observer.observe(sponsor);
+  });
+};
 
-  const animateSponsors = () => {
-    const sponsorElements = document.querySelectorAll(".sponsor");
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("appear");
-        }
-      });
-    }, {
-      threshold: 0.5
-    });
-
-    sponsorElements.forEach(sponsor => {
-      observer.observe(sponsor);
-    });
-  };
-
-  return (
-    <div className="App">
-      <header>
-        <h1>Sponsorship</h1>
-      </header>
-      <section className="sponsorship-section" ref={sponsorshipSectionRef}>
-        <div className="sponsor-group"></div>
-      </section>
-    </div>
-  );
+ return (
+   <div className="App">
+     <header>
+     <h1 className="main-title">Sponsorship</h1>
+     </header>
+     <section className="sponsorship-section" ref={sponsorshipSectionRef}>
+       {sponsors.map(createSponsorElement)}
+     </section>
+     <Fotter position="static" />
+   </div>
+   
+ );
 };
 
 export default Appp;

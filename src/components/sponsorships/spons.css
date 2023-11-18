@@ -4,9 +4,9 @@
     padding: 0;
     background: white;
 } */
-
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
 header {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -17,6 +17,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     margin: 2rem;
+    width: 85vw;
 }
 
 .sponsor {
@@ -71,6 +72,11 @@ header {
 
 .sponsor:hover::before {
     opacity: 1;
+}
+.main-title {
+    padding-top: 70px; /* adjust this value as needed */
+    font-size: 5vw;
+    font-family: "Orbitron", sans-serif;
 }
 
 @keyframes gradientAnimation {
