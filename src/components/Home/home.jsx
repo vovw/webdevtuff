@@ -10,7 +10,7 @@ export default function Navbar() {
      <span className="txgradient">Technovanza</span>
    </h1>
    <h2 className="text-4xl" data-aos="fade-down">
-     Warp into a Far Future
+     Warp drive into the Far Future
    </h2>
  </div>
  <div className="button-container">
