@@ -12,7 +12,7 @@ import Exhibition from './components/exhibition/exhibition.jsx';
 import TandC from './components/rules/terms';
 import Privacy from './components/rules/privacy';
 import Hosp from './components/Hospitality/Hosp.jsx';
-import Appp from './components/sponsorships/spons.js';
+import Appp from './components/sponsorships/spons.jsx';
 
 function App() {
   return (
