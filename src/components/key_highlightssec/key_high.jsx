@@ -51,11 +51,10 @@ export default function Key_high() {
                 </div>
                 <div className="flex-grow">
                   <h2 className="text-white text-lg title-font font-medium mb-3">
-                    Purple eye bottle
+					  Technovanza
                   </h2>
                   <p className="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+	  Technovanza is the annual technical fest of VJTI, where students strive for excellence while giving back to the community. Over the last 18 years, it has grown to become one of the most popular Techno-managerial events in the country and continues to awe its audience with the quality of events it hosts : From conducting competitive events, where people all over India can showcase their talents to hosting exhibitions and dignitaries from various fields, Technovanza keeps getting better each year. Keeping up with our motto of “Taking Technology to the society”, we continue to deliver an exuberant event, virtually this year!
                   </p>
                   <a className="mt-3 text-purple-400 inline-flex items-center">
                     RSVP
