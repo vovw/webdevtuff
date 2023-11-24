@@ -4,7 +4,9 @@
     padding: 0;
     background: white;
 } */
+
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
+
 header {
     background-color: #000000;
     color: white;
@@ -16,33 +18,50 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2rem;
-    width: 85vw;
+    margin: 2rem auto; /* Set margin to auto to center horizontally */
+    max-width: 1000px; /* Adjust max-width as needed */
+    width: 90%; /* Set a percentage width */
 }
 
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%; /* Set a percentage width */
+    margin: 0 auto; /* Set margin to auto to center horizontally */
+}
+
+
 .sponsor {
-    width: 500px;
-    height: 550px;
-    padding: 1rem;
-    margin: 1rem;
-    border: 1px solid #ccc;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    padding: 0.5rem;
+    margin: 5rem auto; /* Increased margin to create a larger gap and centered */
     text-align: center;
+    align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(5vw);
     transition: opacity 0.8s ease, transform 0.8s ease;
     color: #333;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(135deg, #ffffff, #d3d3d1);
+    background: black;
     background-size: 200% 200%;
     animation: gradientAnimation 10000s linear infinite;
 }
 
+
+
 .sponsor img {
+    width: 100%;
     max-width: 100%;
     max-height: 100%;
     margin-bottom: 1rem;
+    height: auto;
 }
 
 .sponsor.appear {
@@ -73,8 +92,9 @@ header {
 .sponsor:hover::before {
     opacity: 1;
 }
+
 .main-title {
-    padding-top: 70px; /* adjust this value as needed */
+    padding-top: 10vw; /* Adjusted value for responsiveness */
     font-size: 5vw;
     font-family: "Orbitron", sans-serif;
 }
@@ -90,3 +110,17 @@ header {
         /* Final position of the gradient */
     }
 }
+
+/* Media Queries for Responsive Design */
+@media screen and (min-width: 768px) {
+    .sponsor {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sponsor {
+        width: 30%;
+    }
+}
+
