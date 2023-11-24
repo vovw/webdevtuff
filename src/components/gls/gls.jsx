@@ -23,43 +23,43 @@ const cardData = [
   {
     name: "Boman Irani",
     category:
-      "PVSM, UYSM, SM, VSM,Planned and Executed the URI SURGICAL STRIKE",
+      "Indian actor and photographer",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/IIFA_2017_Green_Carpet_%2836349841166%29_%28cropped%29.jpg/800px-IIFA_2017_Green_Carpet_%2836349841166%29_%28cropped%29.jpg",
-    link: "https://en.wikipedia.org/wiki/Satish_Dua",
+    link: "https://en.wikipedia.org/wiki/Boman_Irani",
   },
   {
     name: "Ratna Pathak",
     category:
-      "Lieutenant General, PVSM, AVSM, VSM, Retired General Officer in the Indian Army",
+      "Indian actress",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ratna_Pathak_at_DIFF_2016.jpg/330px-Ratna_Pathak_at_DIFF_2016.jpg",
-    link: "https://en.wikipedia.org/wiki/Madhuri_Kanitkar",
+    link: "https://translate.google.com/translate?u=https://en.wikipedia.org/wiki/Ratna_Pathak_Shah&hl=hi&sl=en&tl=hi&client=srp&prev=search",
   },
   {
     name: "Harsha Bhogle",
-    category: "Indian model, actor, voice artist, TV presenter, and anchor",
+    category: "Indian cricket commentator and journalist    ",
     imageUrl: "https://www.harshabhogle.com/wp-content/uploads/2023/08/harsha-bhogle-03.jpg",
-    link: "https://starsunfolded.com/ridhima-pathak/",
+    link: "https://en.wikipedia.org/wiki/Harsha_Bhogle",
   },
   {
     name: "Bjarne Stroustrup",
-    category: "Scientist & Director General,BrahMos Aerospace, DRDO",
+    category: "Danish computer scientist and founder of the C++ programming language",
     imageUrl:
       "https://ieeecs-media.computer.org/wp-media/2018/08/28174850/Bjarne-Stroustrup-250x300.jpg",
-    link: "https://www.brahmos.com/team.php",
+    link: "https://en.wikipedia.org/wiki/Bjarne_Stroustrup",
   },
   {
     name: "Jayant Narlikar",
     category:
-      "Associate Dean in School of Science at Indiana-Purdue University",
+      "Indian astrophysicist and higher education teacher",
     imageUrl: "https://4.bp.blogspot.com/_5n8HkLi-osg/TUombTBGKlI/AAAAAAAAANQ/hpXdiLqsrKs/s320/Narlikar.jpg",
-    link: "https://science.iupui.edu/people-directory/people/raje-rajeev.html",
+    link: "https://en.wikipedia.org/wiki/Jayant_Narlikar",
   },
   {
     name: "Javagal Srinath",
-    category: "Former- DG,CSIR Chairman- National Innovation Foundation",
+    category: "Former cricketer",
     imageUrl:
       "https://images.news9live.com/wp-content/uploads/2023/09/New-Project-2023-09-03T214327.116.jpg?w=1200&enlarge=true",
-    link: "https://en.wikipedia.org/wiki/Raghunath_Anant_Mashelkar",
+    link: "https://en.wikipedia.org/wiki/Javagal_Srinath",
   },
   {
     name: "Mr. Narayan Murthy",
@@ -87,9 +87,9 @@ const cardData = [
   },
   {
     name: "Rajendra Singh",
-    category: "Father of the internet",
+    category: "Indian conservationist and environmentalist",
     imageUrl: "https://indiacsr.in/wp-content/uploads/2022/11/RAJENDRA-SINGH-WATER-MAN-286x300.jpg",
-    link: "https://en.wikipedia.org/wiki/Vint_Cerf",
+    link: "https://en.wikipedia.org/wiki/Rajendra_Singh",
   },
   
   {
