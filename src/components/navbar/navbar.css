@@ -1,8 +1,7 @@
-body {
+body{
     background-color: black;
-  }
-  
-  #Navbar {
+}
+#Navbar {
     background-color: transparent;
     color: white;
     font-family: 'Orbitron', sans-serif;
@@ -11,52 +10,46 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
+    /* backdrop-filter: blur(6px) saturate(180%); */
     -webkit-backdrop-filter: blur(6px) saturate(180%);
     background-color: transparent;
-    transition: background-color 0.3s ease; /* Add a transition for smooth animation */
-  }
-  
-  .nav-logo {
+    
+}
+.nav-logo{
     border-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) 1;
     border-bottom-width: 0.1rem;
     border-bottom-style: solid;
-  }
-  
-  .nav-logo img {
+}
+.nav-logo img {
     width: 3rem;
-  }
-  
-  .diagonal-div {
+}
+.diagonal-div{
     width: 3rem;
-  }
-  
-  .diagonal-div p {
-    height: 100%;
-    border-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) 1;
-    border-width: 0.01rem;
-    border-style: solid;
+}
+.diagonal-div p {
+   /* width: .009rem; */
+   height: 100%;
+   border-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) 1;
+   border-width: 0.01rem;
+   border-style: solid;
     margin: 0 1.2rem;
     transform: rotate(45deg) scale(1.41);
     transform-origin: center;
-  }
-  
-  .nav-items {
+}
+.nav-items{
     border-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) 1;
     border-top-width: 0.1rem;
     border-top-style: solid;
-  }
-  
-  .nav-elements a {
+}
+.nav-elements a{
     cursor: pointer;
-  }
-  
-  .nav-elements a:hover {
-    background: -webkit-linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .nav-toggle {
+}
+.nav-elements a:hover{
+background: -webkit-linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-toggle {
     font-family: 'Orbitron', sans-serif;
     position: fixed;
     top: 4rem;
@@ -82,4 +75,3 @@ body {
     color: white;
     border-radius: 1.2rem;
   }
-  
