@@ -26,27 +26,27 @@ export default function Fotter({ position }) {
           </div>
           <div className="flex flex-row gap-4 md:gap-6 lg:gap-12 fotter-items md:px-8 justify-center pb-1">
             <div className="item">
-              <a href="#" className=" w-8 h-8 md:w-11 md:h-11">
+              <a href="https://www.instagram.com/technovanza/" className=" w-8 h-8 md:w-11 md:h-11">
                 <i className="fa-brands fa-instagram icon"></i>
               </a>
             </div>
             <div className="item">
-              <a href="#" className=" w-8 h-8 md:w-11 md:h-11">
+              <a href="https://in.linkedin.com/company/technovanza-vjti" className=" w-8 h-8 md:w-11 md:h-11">
                 <i className="fa-brands fa-linkedin icon"></i>
               </a>
             </div>
             <div className="item">
-              <a href="#" className=" w-8 h-8 md:w-11 md:h-11">
+              <a href="https://www.youtube.com/user/technovanzaVJTI" className=" w-8 h-8 md:w-11 md:h-11">
                 <i className="fa-brands fa-youtube icon"></i>
               </a>
             </div>
             <div className="item">
-              <a href="#" className=" w-8 h-8 md:w-11 md:h-11">
+              <a href="https://twitter.com/technovanza?lang=en" className=" w-8 h-8 md:w-11 md:h-11">
                 <i className="fa-brands fa-x-twitter icon"></i>
               </a>
             </div>
             <div className="item">
-              <a href="#" className=" w-8 h-8 md:w-11 md:h-11">
+              <a href="https://www.facebook.com/technovanza/" className=" w-8 h-8 md:w-11 md:h-11">
                 <i className="fab fa-facebook-f icon-fb"></i>
               </a>
             </div>

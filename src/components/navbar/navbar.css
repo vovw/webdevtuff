@@ -49,30 +49,29 @@ background: -webkit-linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.nav-toggle{
-    overflow-x: hidden;
+.nav-toggle {
     font-family: 'Orbitron', sans-serif;
-    position: absolute;
+    position: fixed;
     top: 4rem;
-    left:0;
+    left: 0;
     right: 0;
     z-index: 10000;
-}
-.nav-toggle div a{
+    transform: translateY(0); /* Updated to keep the menu visible initially */
+    transition: transform 0.5s ease;
+  }
+  
+  .inner-nav-toggle {
+    transform: translateX(15rem);
+    transition: transform 0.5s ease;
+  }
+  
+  .nav-toggle-vis {
+    transform: translateX(-1rem);
+    transition: transform 0.5s ease;
+  }
+  
+  .nav-toggle div a {
     background-color: black;
     color: white;
     border-radius: 1.2rem;
-
-}
-.inner-nav-toggle{
-    
-    transform: translateX(15rem);
-    transition: transform 0.5s ease;
-    z-index: 10000;
-}
-.nav-toggle-vis{
-    overflow: hidden;
-    transform: translateX(-1rem);
-    transition: transform 0.5s ease;
-    z-index: 10000;
-}
+  }
