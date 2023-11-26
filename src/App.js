@@ -13,6 +13,7 @@ import TandC from './components/rules/terms';
 import Privacy from './components/rules/privacy';
 import Hosp from './components/Hospitality/Hosp.jsx';
 import Appp from './components/sponsorships/spons.jsx';
+import ContactPage from './components/Hospitality/Contact-us/Contact.jsx';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route exact path='/terms' element={<TandC />} />
         <Route exact path='/Hospitality' element={<Hosp />} />
         <Route exact path='/sponsorships' element={<Appp />} />
+        <Route exact path='/Contacts' element={<ContactPage />} />
         {eventsData.map((e) => <Route exact path={'/events/' + e.title} element={<EventInfo title={e.title} imgname={e.imgname} eventDesc={e.description} venue={e.venue} date={e.date} price={e.price} coordinator1={e.coordinator1} coordinator2={e.coordinator2} contact1={e.contact1} contact2={e.contact2} />} />)}
         <Route />
       </Routes>
