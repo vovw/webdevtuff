@@ -137,7 +137,7 @@ class Hosp extends React.Component {
           </div>
         </div>
         <div className="buttons">
-          <a href="/ContactPage">
+          <a href="/Contacts">
      <button className="Contacts">Contact Us</button></a>
    </div>        
       </div>
