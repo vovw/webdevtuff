@@ -3,7 +3,12 @@ import './Contact.css'; // Import your CSS file
 import Fotter from '../../fotter/fotter';
 const ContactPage = () => {
   return (
+    <div>
     <div className="contact-page">
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
       <header>
         <h1>Contact Us</h1>
         <p></p>
@@ -12,8 +17,9 @@ const ContactPage = () => {
         <div className="content-form">
           <section>
             <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-            <h2>address</h2>
-            <p> VJTI MUMBAI <br /></p>
+            <h2>Address</h2>
+            <p>Veermata Jijabai Technological Institute VJTI,<br />
+            2VC4+VCQ, H R Mahajani Rd,<br /> Matunga East, Mumbai, Maharashtra 400019</p>
           </section>
 
           <section>
@@ -53,7 +59,9 @@ const ContactPage = () => {
           </div>
         </div>
       </form>
-      <Fotter position="static" />
+      
+    </div>
+    <Fotter position="static" />
     </div>
   );
 };
