@@ -136,8 +136,10 @@ class Hosp extends React.Component {
             </p>
           </div>
         </div>
-        
-        
+        <div className="buttons">
+          <a href="/Contacts">
+     <button className="Contacts">Contact Us</button></a>
+   </div>        
       </div>
     </div>
     <Fotter position="static" />
