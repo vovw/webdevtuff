@@ -37,7 +37,7 @@ const cardData = [
   {
     name: "Harsha Bhogle",
     category: "Indian cricket commentator and journalist    ",
-    imageUrl: "https://www.harshabhogle.com/wp-content/uploads/2023/08/harsha-bhogle-03.jpg",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BZmI0MDkwMTgtYzliYS00NWQ4LTg2OTUtNDdhYTYwZWI0NDk3XkEyXkFqcGdeQXVyOTAyMDgxODQ@._V1_.jpg",
     link: "https://en.wikipedia.org/wiki/Harsha_Bhogle",
   },
   {
@@ -113,7 +113,7 @@ function Gls() {
           href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
           rel="stylesheet"
         />
-        <h1 className="text-8xl">Our Past Speakers</h1>
+        <div className="text-8xl"><br/>Our Past Speakers</div>
         <section className="hero-section">
           <div className="card-grid">
             {cardData.map((card, index) => (
