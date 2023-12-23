@@ -14,6 +14,6 @@
 - [ ] exhibition (athu)
 - [ ] login (athu) 
 - [ ] seo optimization (athu)
-- [ ] vo upar ka (harshal)
+- [x] vo upar ka (harshal)
 - [ ] aftermovie fix ( copy techfest as usual ) (us bro)
 - [ ] navbar background and outline fix (harshal) 
