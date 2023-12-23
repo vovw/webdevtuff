@@ -12,7 +12,7 @@
 - [ ] fix colour of navbar, fotter, gallery (harshal)
 - [ ] event planet image fix (circle cutting font) (abhayy)
 - [ ] exhibition (athu)
-- [ ] login (athu)
+- [ ] login (athu) hello
 - [ ] seo optimization (athu)
 - [ ] vo upar ka (harshal)
 - [ ] aftermovie fix ( copy techfest as usual ) (us bro)
