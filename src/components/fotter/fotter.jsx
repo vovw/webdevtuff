@@ -3,7 +3,7 @@ import "./fotter.css";
 export default function Fotter({ position }) {
   return (
     <>
-      <div id="Fotter" className={position}>
+      <div id="Fotter" className={position+" py-10"}>
         <div className="fotter-content flex flex-col md:flex-row items-center justify-center my-4 gap-2 md:gap-0">
           <div className="flex flex-row main-left-fotter pt-1">
             <div className="fotter-left hidden  xl:flex flex-row px-2 md:px-4 lg:px-8">

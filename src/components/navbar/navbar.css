@@ -21,7 +21,7 @@ body{
     border-bottom-style: solid;
 }
 .nav-logo img {
-    width: 3rem;
+    width: 3.2rem;
 }
 .diagonal-div{
     width: 3rem;
@@ -32,8 +32,7 @@ body{
    border-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) 1;
    border-width: 0.01rem;
    border-style: solid;
-    margin: 0 1.2rem;
-    transform: rotate(45deg) scale(1.41);
+    transform: rotate(45deg) scale(1.39);
     transform-origin: center;
 }
 .nav-items{
@@ -71,7 +70,18 @@ background: -webkit-linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100
   }
   
   .nav-toggle div a {
-    background-color: black;
+    background-color: transparent;
+    border: 1px solid #aa00ff;
     color: white;
-    border-radius: 1.2rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    transition: ease-in-out 0.3s ;
+  }
+  .nav-toggle div a:hover{
+    background-color:#aa00ff ;
+    border: 1px solid hsla(0,0%,100%,.2);
+    color: white;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    transform: translateX(10px);
   }
