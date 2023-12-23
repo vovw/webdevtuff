@@ -173,7 +173,20 @@ h2 {
 
  font-weight: bold;
 }
+.buttons .Contacts {
+  border: linear-gradient(135deg, #0074e4, #0a1535); /* adjust as needed */
+  background: #000000; /* adjust as needed */
+  transition: background 0.3s ease-in-out; /* adjust as needed */
+  padding: 10px 20px; /* adjust as needed */
+  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+  text-align: center;
+}
 
+.buttons .Contacts:hover {
+  background: linear-gradient(135deg, #0074e4, #0a1535); /* adjust as needed */
+  color: #FFFFFF; /* adjust as needed */
+}
 
 
 h3.steps {
@@ -186,6 +199,9 @@ h3.steps {
 .buttons {
   text-align: center;
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
@@ -250,10 +266,7 @@ h3.steps {
   margin-top: 2rem;
 }
 
-buttons {
-  text-align: center;
-  margin-top: 1rem;
-}
+
 
 .avail-button,
 .info-button {

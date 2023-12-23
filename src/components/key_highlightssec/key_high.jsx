@@ -1,12 +1,15 @@
 import "./key_high.css";
 import banner from './banner.jpg';
+import vidGif from './vid.gif'; // import the gif
 
 export default function Key_high() {
   return (
     <>
       <section
         className="text-gray-400 bg-black body-font kh"
-      >
+        style={{ backgroundImage: `url(${vidGif})` }} // use the gif as a background image
+        >
+
         <div className="container px-5 pt-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
