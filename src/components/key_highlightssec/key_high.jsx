@@ -9,7 +9,7 @@ export default function Key_high() {
       >
         <div className="container px-5 pt-24 mx-auto">
           <div className="text-center mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-white mb-4 key-main">
               Key Highlights
             </h1>
             <div className="flex mt-6 justify-center">
@@ -19,12 +19,12 @@ export default function Key_high() {
           <div className="container px-5 pb-24 mx-auto flex flex-wrap">
             <div
               className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden"
-              data-tilt=""
-              data-tilt-max={25}
-              data-tilt-speed={100}
-              data-tilt-perspective={20000}
-              data-tilt-glare=""
-              data-tilt-max-glare="0.5"
+              // data-tilt=""
+              // data-tilt-max={25}
+              // data-tilt-speed={100}
+              // data-tilt-perspective={20000}
+              // data-tilt-glare=""
+              // data-tilt-max-glare="0.5"
             >
               <img
                 alt="feature"
@@ -50,10 +50,10 @@ export default function Key_high() {
                   </svg>
                 </div>
                 <div className="flex-grow">
-                  <h2 className="text-white text-lg title-font font-medium mb-3">
+                  <h2 className="text-white text-4xl title-font font-medium mb-3">
 					  Technovanza
                   </h2>
-                  <p className="leading-relaxed text-base">
+                  <p className="leading-relaxed des-key text-lg">
 	  Technovanza is the annual technical fest of VJTI, where students strive for excellence while giving back to the community. Over the last 18 years, it has grown to become one of the most popular Techno-managerial events in the country and continues to awe its audience with the quality of events it hosts : From conducting competitive events, where people all over India can showcase their talents to hosting exhibitions and dignitaries from various fields, Technovanza keeps getting better each year. Keeping up with our motto of “Taking Technology to the society”, we continue to deliver an exuberant event, virtually this year!
                   </p>
                   <a className="mt-3 text-purple-400 inline-flex items-center">
