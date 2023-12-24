@@ -42,7 +42,7 @@
 
 .contact-page .content {
     display: flex;
-    min-height: 110vh;
+    min-height: 80vh;
 }
 
 .contact-page .content section {
@@ -119,6 +119,7 @@
     pointer-events: none;
 }
 
+
 .contact-page .form .contact-form input[type=submit] {
     background-color: dodgerblue;
     border: 2px solid dodgerblue;
@@ -161,10 +162,11 @@
     .contact-page .empty {
         height: 210vh;
     }
+   
 
     .contact-page .form {
-        position: absolute;
-        top: 100vh;
+        position: relative;
+        top: 0;
         margin-left: 10%;
     }
 
