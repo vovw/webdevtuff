@@ -1,7 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-}
 .main{
   background-color: #121212;
 }
@@ -30,7 +26,7 @@
   width: 100%;
 }
 
-.container {
+.containerss {
   width: 70%;
   margin: auto;
   color: white;

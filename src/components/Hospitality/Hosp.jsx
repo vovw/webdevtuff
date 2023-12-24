@@ -26,7 +26,7 @@ class Hosp extends React.Component {
 
  render() {
  return (
- <div className="container">
+ <div className="containerss">
    <h1>Accommodation</h1>
    <h3 className="steps">Steps to register</h3>
    <div className="registration-steps-container">
@@ -51,7 +51,7 @@ class Hosp extends React.Component {
      <button className="avail-button">Avail Now</button>
      <button className="info-button">More info</button>
    </div>
-   <div className="container">
+   <div className="containerss">
      <h2 style={{fontSize: '2rem'}}>Frequently Asked Questions</h2>
      <div className="accordion">
        <div className="accordion-item">

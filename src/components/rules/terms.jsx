@@ -39,7 +39,7 @@ const TandC = () => (
       <div className={styles.headContainer}>
         <h1 className={styles.headingTnC}>Terms and Conditions</h1>
       </div>
-      <div className={styles.container}>
+      <div className={styles.containerss}>
 
         <p className={styles.italicPara}>Last updated: February 1, 2023</p>
         <p className={styles.italicPara}>Please read these terms and conditions carefully before using Our Service.</p>

@@ -38,7 +38,7 @@ const Privacy = () => (
       <div className={styles.headContainer}>
         <h1 className={styles.heading1}>Privacy Policy for Technovanza VJTI</h1>
       </div>
-      <div className={styles.container}>
+      <div className={styles.containerss}>
 
         <p className={styles.para}>At Technovanza VJTI, accessible from https://technovanza.org, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Technovanza VJTI and how we use it.</p>
 
