@@ -116,9 +116,9 @@ function Gls() {
           href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
           rel="stylesheet"
         />
-        <div className="text-8xl"><br/>Our Past Speakers</div>
+        <p className="text-6xl mt-20">Our Past Speakers</p>
         <section className="hero-section">
-          <div className="card-grid">
+          <div className="card-grid mx-8 sm:mx-0 gap-8">
             {cardData.map((card, index) => (
               <a
                 className={`card ${card.name.toLowerCase()}`}

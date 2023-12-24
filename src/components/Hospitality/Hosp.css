@@ -300,19 +300,22 @@ h3.steps {
   padding: 20px;
   border-radius: 10px;
   /* background: linear-gradient(135deg, #3498db, #6c5ce7); */
-  background: linear-gradient(135deg, #3498db, #8e44ad); 
-  color: #fff;
+  border: 1px solid hsla(0,0%,100%,.2);
+  background: transparent;
+  color: white;
   font-size: 2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease-in-out;
+  transition: ease-in-out 0.3s;
   position: relative; /* Add positioning for pseudo-elements */
 }
 
 .registration-step:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
+  /* background: linear-gradient(135deg, #3498db, #8e44ad);  */
+  background-color: white;
+color: black;
+  /* color: #fff; */
   
-  border: 1px solid hsla(0,0%,100%,.2);
-  background: transparent;
 }
 
 /* Add an attractive pseudo-element for decoration */

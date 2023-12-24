@@ -1,10 +1,12 @@
 import React from 'react';
 import "./exhibition.css";
+import Fotter from "../fotter/fotter";
 const Exhibition = () => {
   return (
-    <div id="Exibition" className='flex flex-col justify-center mt-36 text-white gap-8'>
+    <>
+    <div id="Exibition" className='flex flex-col justify-center mt-36 text-white gap-8 mx-4'>
       <div className='inline-flex flex-row justify-center mx-4'>
-        <div className='attend-exh flex flex-row justify-center gap-8 sm:gap-24 p-4 rounded-3xl flex-wrap'>
+        <div className='attend-exh flex flex-row justify-center gap-8 sm:gap-24 p-8 rounded-3xl flex-wrap'>
           <div className='flex flex-row justify-center w-80'>
             <img src={require("../../img/attend-exh.jpg")} alt="attend-exh" className='' />
           </div>
@@ -27,9 +29,9 @@ const Exhibition = () => {
           </div>
         </div>
       </div>
-
-
     </div>
+    <Fotter position="static"  />
+    </>
   );
 };
 
