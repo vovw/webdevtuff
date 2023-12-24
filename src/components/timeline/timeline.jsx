@@ -13,7 +13,7 @@ let Timeline = () => {
         </div>
         <ImageCarousel />
         <div className="gallery-header flex flex-col justify-center items-center text-white mb-8 gap-4">
-            <p className="text-base sm:text-2xl md:text-3xl lg:texl-4xl xl:text-5xl main-g-h">Sacred Timeline</p>
+            <p className="text-2xl md:text-3xl lg:texl-4xl xl:text-5xl main-g-h">Sacred Timeline</p>
         </div>
         <section id="Timeline" className="mb-10">
             <div className="timeline flex flex-col justify-center items-center">

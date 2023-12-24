@@ -34,25 +34,19 @@ export default function Key_high() {
       <section className="aftermovie flex flex-col justify-center items-center my-6">
         <h3 className="text-white text-6xl font-orbitron mt-16 key-main">Aftermovie</h3>
         <div className="flex my-2 justify-center">
-              <div className="w-16 h-1 rounded-full bg-purple-500 inline-flex" />
-            </div>
-        <div className="container video-frame relative flex  flex-row items-center ">
+          <div className="w-16 h-1 rounded-full bg-purple-500 inline-flex" />
+        </div>
+        <div className="container video-frame relative flex flex-col lg:flex-row items-center gap-8 ">
           <iframe
-            className="responsive-iframe ml-8 mr-8 w-4/6 h-80"
+            className="responsive-iframe h-48 w-5/6 sm:w-3/6 sm:h-80"
             src="https://www.youtube.com/embed/PdZMegceT_E?si=Fdaxt-nB9Jcuw7y0"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen=""
           />
-          <p className="text- text-3xl ml-90" style={{
-            background: 'linear-gradient(to right, #00B4DB, #0083B0)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent'
-          }}>
-            Explore the Future of Technology and Entrepreneurship at the Giant
-            Technovanza 2024,
-            <br /> Asia's Most Anticipated Techno-Managerial Festival!
-          </p>
+            <p className="text-xl md:text-3xl afterMovie">Explore the Future of Technology and Entrepreneurship at the Giant Technovanza 2024,
+              <br /> Asia's Most Anticipated Techno-Managerial Festival!
+            </p>
         </div>
       </section>
     </>
