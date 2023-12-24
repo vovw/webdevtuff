@@ -53,13 +53,6 @@ export default function Key_high() {
               data-tilt-glare=""
               data-tilt-max-glare="0.5"
             >
-              <img
-                alt="feature"
-                className="object-cover object-center h-full w-full"
-                width={460}
-                height={270}
-                src={banner}
-              />
             </div>
             
           </div>
