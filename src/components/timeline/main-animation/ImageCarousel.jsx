@@ -2,12 +2,19 @@ import React, { useState, useEffect } from 'react';
 import './ImageCarousel.css';
 
 const imgs = [
-  'https://cdn.discordapp.com/attachments/1142426341002711040/1149739540840456192/img2.jpg',
-  'https://cdn.discordapp.com/attachments/1142426341002711040/1149739541066961046/img3.jpg',
-  'https://cdn.discordapp.com/attachments/1142426341002711040/1149739541347971153/img4.jpg',
-  'https://cdn.discordapp.com/attachments/1142426341002711040/1149739541603819612/img5.jpg',
-  'https://cdn.discordapp.com/attachments/1142426341002711040/1149739541868072960/img6.jpg',
-  'https://cdn.discordapp.com/attachments/1142426341002711040/1149739540555247620/img1.jpg',
+  'https://i.imgur.com/8oJ3HvF.jpeg',
+  'https://i.imgur.com/kLB0jvk.jpeg',
+  'https://i.imgur.com/R4q1rEU.jpeg',
+  'https://i.imgur.com/Lu4ltOF.jpeg',
+  'https://i.imgur.com/x5AD1yW.jpeg',
+  'https://i.imgur.com/pIdINGN.jpeg',
+  'https://i.imgur.com/dsMAQW3.jpeg',
+  'https://i.imgur.com/WwxPHav.jpeg',
+  'https://i.imgur.com/AEysrMF.jpeg',
+  'https://i.imgur.com/IdGhmGR.jpeg',
+  'https://i.imgur.com/qdXZRJ3.jpeg',
+  'https://i.imgur.com/6HLtyoi.jpeg',
+
 ];
 
 const ImageCarousel = () => {
