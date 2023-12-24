@@ -8,6 +8,7 @@ const cardData = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/A._P._J._Abdul_Kalam.jpg/330px-A._P._J._Abdul_Kalam.jpg",
     link: "https://vjtitechnovanza.wordpress.com/2015/10/14/dr-apj-abdul-kalams-speech-at-vjti-technovanza/",
   },
+  
   {
     name: "Mr. Ratan Tata",
     category: "Former Chairman of Tata Group, Philanthropist",
@@ -37,7 +38,9 @@ const cardData = [
   {
     name: "Harsha Bhogle",
     category: "Indian cricket commentator and journalist    ",
+
     imageUrl: "https://m.media-amazon.com/images/M/MV5BZmI0MDkwMTgtYzliYS00NWQ4LTg2OTUtNDdhYTYwZWI0NDk3XkEyXkFqcGdeQXVyOTAyMDgxODQ@._V1_.jpg",
+
     link: "https://en.wikipedia.org/wiki/Harsha_Bhogle",
   },
   {

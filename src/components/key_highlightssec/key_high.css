@@ -1,27 +1,23 @@
 .kh{
     overflow: hidden;
     /* width: 100vw!important; */
+     
+    background: url(./bgs.svg) no-repeat center center/ cover;
 }
 .container {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; 
+    padding-top: 56.25%;
 }
    
-.responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
+.responsive-iframe{
+    border-radius: 16px;
+    border: 2px solid cyan;
 }
-.key-main{
-     font-family: "Orbitron", sans-serif;
-}
+
 .des-key{
     font-family: 'Montserrat', sans-serif;
     
 }
+

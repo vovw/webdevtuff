@@ -14,12 +14,12 @@ const ImageCarousel = () => {
   const [index, setIndex] = useState(0);
 
   const handleNext = () => {
-    setIndex( index === imgs.length - 1 ? 0 : index + 1 );
+    setIndex((index + 1) % imgs.length);
   };
 
   const handlePrev = () => {
-    setIndex(index === 0 ? imgs.length - 1 : index - 1);
-   };
+    setIndex((index - 1 + imgs.length) % imgs.length);
+  };
    
 
   const calculateStyles = (imageIndex) => {

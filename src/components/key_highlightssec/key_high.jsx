@@ -6,6 +6,7 @@ export default function Key_high() {
     <>
       <section
         className="text-gray-400 bg-black body-font kh"
+        
       >
         <div className="container px-5 pt-24 mx-auto">
           <div className="text-center mb-20">
@@ -31,6 +32,7 @@ export default function Key_high() {
             <div className="flex flex-col flex-wrap justify-center lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
               <div className="flex flex-col mb-10 lg:items-start items-center">
                 <div className="flex-grow">
+
                   <h2 className="text-white text-4xl title-font font-medium mb-3">
 					  Technovanza
                   </h2>
@@ -41,20 +43,52 @@ export default function Key_high() {
               </div>
             </div>
           </div>
+          <div className="container px-5 pb-24 mx-auto flex flex-wrap">
+            <div
+              className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden"
+              data-tilt=""
+              data-tilt-max={25}
+              data-tilt-speed={100}
+              data-tilt-perspective={20000}
+              data-tilt-glare=""
+              data-tilt-max-glare="0.5"
+            >
+              <img
+                alt="feature"
+                className="object-cover object-center h-full w-full"
+                width={460}
+                height={270}
+                src={banner}
+              />
+            </div>
+            
+          </div>
         </div>
       </section>
-      <section className="aftermovie h-screen bg-black">
- <div className="h-full container">
-   <iframe
-     className="responsive-iframe"
-     src="https://www.youtube.com/embed/PdZMegceT_E?si=Fdaxt-nB9Jcuw7y0"
-     title="YouTube video player"
-     frameBorder={0}
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     allowFullScreen=""
-   />
- </div>
-</section>
+      <section 
+      className="aftermovie h-screen bg-black flex flex-col justify-center items-center"
+      >
+        <h3 className="text-white text-6xl font-orbitron mb-16">Aftermovie</h3>
+        <div className="container video-frame relative flex  flex-row items-center ">
+          <iframe
+            className="responsive-iframe ml-8 mr-8 w-4/6 h-80"
+            src="https://www.youtube.com/embed/PdZMegceT_E?si=Fdaxt-nB9Jcuw7y0"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen=""
+          />
+<p className="text- text-3xl ml-90" style={{
+  background: 'linear-gradient(to right, #00B4DB, #0083B0)',
+  WebkitBackgroundClip: 'text',
+  WebkitTextFillColor: 'transparent'
+}}>
+            Explore the Future of Technology and Entrepreneurship at the Giant
+            Technovanza 2024,
+            <br /> Asia's Most Anticipated Techno-Managerial Festival!
+          </p>
+        </div>
+      </section>
     </>
   );
 }

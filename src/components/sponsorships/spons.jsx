@@ -17,6 +17,9 @@ const sponsors = [
 const Appp = () => {
   const [lastScrollPosition, setLastScrollPosition] = useState(0);
   const sponsorshipSectionRef = useRef(null);
+  useEffect(() => {
+    animateSponsorsUp();
+  }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
