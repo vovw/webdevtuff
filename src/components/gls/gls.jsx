@@ -38,7 +38,7 @@ const cardData = [
   {
     name: "Harsha Bhogle",
     category: "Indian cricket commentator and journalist    ",
-    imageUrl: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200/lsci/db/PICTURES/CMS/317800/317833.jpg",
+    imageUrl: "",
     link: "https://en.wikipedia.org/wiki/Harsha_Bhogle",
   },
   {

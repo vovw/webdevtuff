@@ -1,13 +1,13 @@
 import "./key_high.css";
 import banner from "./banner.jpg";
-import vidGif from "./vid.gif"; // import the gif
+
 
 export default function Key_high() {
   return (
     <>
       <section
         className="text-gray-400 bg-black body-font kh"
-        style={{ backgroundImage: `url(${vidGif})` }} // use the gif as a background image
+        
       >
         <div className="container px-5 pt-24 mx-auto">
           <div className="text-center mb-20">
@@ -110,7 +110,7 @@ export default function Key_high() {
       </section>
       <section 
       className="aftermovie h-screen bg-black flex flex-col justify-center items-center"
-      style={{ backgroundImage: `url(${vidGif})` }}>
+      >
         <h3 className="text-white text-6xl font-orbitron mb-16">Aftermovie</h3>
         <div className="container video-frame relative flex  flex-row items-center ">
           <iframe
