@@ -40,8 +40,8 @@ body {
 .card-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: var(--spacing-l);
-    grid-row-gap: var(--spacing-l);
+    grid-column-gap: 2.2rem;
+    grid-row-gap: 2.2rem;
     max-width: var(--width-container);
     width: 100%;
 }
@@ -75,6 +75,7 @@ body {
     background-position: center;
     border-radius: var(--spacing-l);
     bottom: 0;
+    border: 1px solid grey;
     filter: brightness(0.75) saturate(1.2) contrast(0.75);
     left: 0;
     position: absolute;
@@ -114,6 +115,13 @@ body {
     margin-top: 0.5rem;
     text-transform: uppercase;
     height: 4vw;
+}
+
+.text-8xl{
+    line-height: 50%;
+    color: white;
+    text-align: center;
+    font-family: "Oxanium";
 }
 
 .card__heading {

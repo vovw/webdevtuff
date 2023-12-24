@@ -18,7 +18,8 @@
 
 .l-hr-line p {
     height: 3px;
-    background:linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) ;
+    /* background:linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) ; */
+    background-color: #db1bf0;
     position: relative;
     left: .7rem;
     width: 100%;
@@ -52,7 +53,7 @@
 
 .ver-line {
     width: 3px;
-    background:linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) ;
+    background-color: #db1bf0;
     margin: 0px 11px;
 }
 .vacant1 {
@@ -66,7 +67,7 @@
     border-radius: 50%;
     position: relative;
     /* top: 4.2rem; */
-    right: 2rem;
+    right: 2.2rem;
     color: white;
     overflow: hidden;
     cursor: pointer;
@@ -106,7 +107,7 @@
         width: 8rem!important;
         height: 8rem!important;
         position: relative;
-        left: .7rem;
+        left: 1.4rem;
     }
     .content-discription1 {
         width: 8rem !important;

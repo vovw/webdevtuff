@@ -1,6 +1,6 @@
 .r-hr-line p{
     height: 3px;
-    background:linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) ;
+    background-color: #db1bf0;
     position: relative;
     right: .7rem;
     width: 100%;
@@ -46,7 +46,7 @@
 }
 .ver-line {
     width: 3px;
-    background:linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) ;
+    background-color: #db1bf0;
     margin: 0px 11px;
 }
 .vacant2 {

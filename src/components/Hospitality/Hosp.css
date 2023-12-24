@@ -9,7 +9,7 @@
 .container {
  margin: 0 auto;
  padding: 4rem;
- font-family: "Orbitron", sans-serif;
+ /* font-family: "Orbitron", sans-serif; */
  align-items: center;
 }
 
@@ -69,7 +69,8 @@
 
 .accordion button .accordion-title {
  padding: 1em 1.5em 1em 0;
- font-family: "Orbitron", sans-serif;
+ font-family: 'Merriweather Sans', sans-serif;
+
 }
 
 .accordion button .icon {
@@ -147,32 +148,13 @@ h2 {
    }
    
 
-.registration-steps-container {
+ .registration-steps-container {
  text-align: center;
  width: 70%;
  margin: 0 auto;
 }
 
-.registration-step {
- font-family: "Orbitron", sans-serif;
- margin: 20px 0;
- padding: 20px;
- border-radius: 5px;
- background: linear-gradient(135deg, #0074e4, #0a1535);
- color: #fff;
- font-size: 2rem;
-}
 
-.step-icon {
- 
- font-weight: bold;
-}
-
-.step-description {
- margin-top: 10px;
-
- font-weight: bold;
-}
 .buttons .Contacts {
   border: linear-gradient(135deg, #0074e4, #0a1535); /* adjust as needed */
   background: #000000; /* adjust as needed */
@@ -183,6 +165,7 @@ h2 {
   text-align: center;
 }
 
+
 .buttons .Contacts:hover {
   background: linear-gradient(135deg, #0074e4, #0a1535); /* adjust as needed */
   color: #FFFFFF; /* adjust as needed */
@@ -190,7 +173,7 @@ h2 {
 
 
 h3.steps {
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Abril Fatface', cursive;
   text-align: center;
   font-size: 2rem;
   margin-top: 12rem;
@@ -214,7 +197,7 @@ h3.steps {
   border: white 1px solid;
   border-radius: 5px;
   cursor: pointer;
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.2rem;
   transition: background 0.3s;
 }
@@ -249,18 +232,23 @@ h3.steps {
   font-size: 1rem;
 }
 
-.registration-steps-container {
+/* .registration-steps-container {
   width: 100%;
   max-width: 70%;
-}
+}*/
 
 .step-icon {
   font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .step-description {
   font-size: 1rem;
-}
+  font-family: 'Roboto', sans-serif;
+  
+
+} 
 
 h3.steps {
   margin-top: 2rem;
@@ -275,8 +263,7 @@ h3.steps {
   font-size: 1rem;
 }
 
-@media (max-width: 768px) {
-}
+
 
 @media (max-width: 480px) {
 }
@@ -291,5 +278,76 @@ h3.steps {
 
   @media (max-width: 480px) {
     font-size: 1.5rem;
+  }
+
+}
+
+/* .registration-steps-container {
+  width: 100%;
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #3498db, #8e44ad);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+} */
+
+.registration-step {
+  font-family: 'Orbitron', sans-serif;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  /* background: linear-gradient(135deg, #3498db, #6c5ce7); */
+  background: linear-gradient(135deg, #3498db, #8e44ad); 
+  color: #fff;
+  font-size: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  position: relative; /* Add positioning for pseudo-elements */
+}
+
+.registration-step:hover {
+  transform: scale(1.1);
+  
+  border: 1px solid hsla(0,0%,100%,.2);
+  background: transparent;
+}
+
+/* Add an attractive pseudo-element for decoration */
+.registration-step::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(135deg, #3498db, #8e44ad); */
+  border-radius: 10px;
+  z-index: -1; /* Behind the content */
+}
+
+.step-icon {
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.step-description {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  .accordion {
+    margin: 0;
+  }
+  .accordion-title {
+    margin: 0;
   }
 }

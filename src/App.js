@@ -1,16 +1,16 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Timeline from "./components/timeline/timeline";
-import Home from './components/Home/home';
-import Events from './components/Events/events';
-import Navbar from "./components/navbar/navbar"
-import Gls from './components/gls/gls'
-import eventsData from './components/Events/data';
-import EventInfo from './components/Events/EventInfo';
+import Timeline from "./components/timeline/timeline.jsx";
+import Home from './components/Home/home.jsx';
+import Events from './components/Events/events.jsx';
+import Navbar from "./components/navbar/navbar.jsx"
+import Gls from './components/gls/gls.jsx'
+import eventsData from './components/Events/data.js';
+import EventInfo from './components/Events/EventInfo.jsx';
 import Exhibition from './components/exhibition/exhibition.jsx';
 // import Team from './components/team/team'
-import TandC from './components/rules/terms';
-import Privacy from './components/rules/privacy';
+import TandC from './components/rules/terms.jsx';
+import Privacy from './components/rules/privacy.jsx';
 import Hosp from './components/Hospitality/Hosp.jsx';
 import Appp from './components/sponsorships/spons.jsx';
 import ContactPage from './components/Hospitality/Contact-us/Contact.jsx';
