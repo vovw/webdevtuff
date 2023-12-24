@@ -1,7 +1,5 @@
 #Timeline {
-    margin-top: 5rem;
     color: black;
-    /* width: 100vw; */
 }
 
 .dot {
@@ -14,5 +12,7 @@
 .vacant {
     height: 40px;
 }
-/* -------------------- */
-
+.main-g-h{
+    /* font-family: 'Orbitron',serif; */
+    font-family: 'Montserrat', sans-serif;
+}

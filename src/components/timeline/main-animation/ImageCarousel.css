@@ -1,8 +1,9 @@
 .CarouselWrapper {
     width: 80vw;
-    height: 100vh; /* Adjust width for responsiveness */
+    height: 66vh; 
     margin: 0 auto; /* Center the carousel */
     overflow-x: hidden;
+    margin-bottom: 2rem;
   }
 
 .ImageCarouselContainer {
@@ -10,7 +11,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 30%; /* Adjust top margin as needed */
+    margin-top: 20%; /* Adjust top margin as needed */
     margin-bottom: 5%; /* Adjust bottom margin as needed */
   }
   
