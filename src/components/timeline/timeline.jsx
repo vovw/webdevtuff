@@ -8,13 +8,12 @@ let Timeline = () => {
 
     return (
         <>
-        <div className="flex flex-row justify-center text-6xl text-white mt-28 main-g-h">
+        <div className="flex flex-row justify-center text-2xl sm:text-3xl md:text-4xl lg:texl-5xl xl:text-6xl text-white mt-28 main-g-h">
             <p>Gallery</p>
         </div>
         <ImageCarousel />
         <div className="gallery-header flex flex-col justify-center items-center text-white mb-8 gap-4">
-            <p className="text-5xl main-g-h">Behold the timeline of the Asia's biggest Techhfest</p>
-            <p>{"<"}hover or click on the images{"/>"}</p>
+            <p className="text-base sm:text-2xl md:text-3xl lg:texl-4xl xl:text-5xl main-g-h">Sacred Timeline</p>
         </div>
         <section id="Timeline" className="mb-10">
             <div className="timeline flex flex-col justify-center items-center">
