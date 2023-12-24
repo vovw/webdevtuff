@@ -1,0 +1,33 @@
+.exhibi-btn{
+    border: 1px solid #aa00ff;
+    transition: ease-in-out 0.3s;
+    background-color: #aa00ff;
+    color: white;
+}
+.attende-btn{
+    border: 1px solid #16b4d0;
+    transition: ease-in-out 0.3s;
+    background-color: #16b4d0;
+    color: white;
+}
+.attende-btn:hover , .exhibi-btn:hover{
+    border: 1px solid hsla(0,0%,100%,.2);
+    background-color: transparent;
+    color: white;
+}
+.exh-des{
+    width: 40rem;
+}
+.attend-exh{
+    border: 1px solid hsla(0,0%,100%,.2);
+}
+@media (max-width:1005px){
+    .exh-des{
+        width: 30rem;
+    }
+}
+@media (max-width:1005px){
+    .exh-des{
+        width: 22rem;
+    }
+}
