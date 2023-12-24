@@ -1,12 +1,14 @@
 .kh{
     overflow: hidden;
     /* width: 100vw!important; */
+     
+    background: url(./bgs.svg) no-repeat center center/ cover;
 }
 .container {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; 
+    padding-top: 56.25%;
 }
    
 .responsive-iframe {
