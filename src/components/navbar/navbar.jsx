@@ -12,7 +12,7 @@ export default function Navbar() {
             <a href="/">
             <img src={require('../../img/techno_img.png')} />
             </a>
-            <p className="text-4xl md:text-5xl">Technovanza</p>
+            <p className="text-xl sm:text-2xl md:text-3xl  lg:text-5xl">Technovanza</p>
           </div>
           <div className="diagonal-div flex flex-row justify-center items-center">
             <p></p>
