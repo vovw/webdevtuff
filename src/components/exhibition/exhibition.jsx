@@ -25,7 +25,7 @@ const Exhibition = () => {
           <div className='h-full flex flex-col gap-8'>
             <p className='text-4xl'>For Exhibitors</p>
             <p className='text-base exh-des'>Calling all innovators and creators! Showcase your groundbreaking projects and ideas at Technovanza's exhibition. This is your chance to spotlight your technological marvels, share your passion for innovation, and connect with a diverse audience of tech enthusiasts. Whether you're a student, a startup, or an established tech wizard, this is the platform to exhibit your prowess. Set up your project, demonstrate its potential, and leave a lasting impression on the vibrant tech community.</p>
-            <button className='exhibi-btn rounded-3xl py-2'>Fill the form</button>
+            <a href='https://forms.gle/AN2gsQvgX9JqKqZb8' target='_blank' className='text-center exhibi-btn rounded-3xl py-2'>Fill the form</a>
           </div>
         </div>
       </div>
