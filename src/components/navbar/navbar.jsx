@@ -8,7 +8,7 @@ export default function Navbar() {
     <>
       <section id="Navbar">
         <div className="navbar flex flex-row justify-center py-2">
-          <div className="nav-logo flex flex-row md:px-0 lg:px-5 xl:px-20 items-center">
+          <div className="nav-logo flex flex-row md:px-0 lg:px-5 items-center">
             <a href="/">
             <img src={require('../../img/techno_img.png')} />
             </a>
@@ -18,7 +18,7 @@ export default function Navbar() {
             <p></p>
           </div>
           <div className="nav-items flex flex-row">
-            <div className="nav-elements hidden sm:flex  flex-row justify-center items-center gap-4 md:gap-6 md:text-lg lg:gap-14 lg:text-xl xl:gap-20 xl:text-2xl text-base">
+            <div className="nav-elements hidden sm:flex  flex-row justify-center items-center gap-4 md:gap-6 md:text-lg lg:gap-14 lg:text-xl xl:gap-20 xl:text-2xl text-base mx-4">
               <a href="/"><p>Home</p></a>
               <a href="/events"><p>Events</p></a>
               <a href="/gls"><p>GLS</p></a>
