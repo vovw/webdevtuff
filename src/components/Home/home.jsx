@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <>
       <section className="landing h-screen text-white bg-black flex items-center justify-start w-screen">
-        <div className="title-container h-1/2 mx-16">
+        <div className="title-container h-1/2 mx-16 max-md:mt-20 mx-16 max-sm:mt-40">
           <h1 className="text-8xl text-left" data-aos="fade-down">
             Technovanza
           </h1>

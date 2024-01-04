@@ -28,4 +28,6 @@ p{font-family: 'Montserrat', sans-serif;}
    color: #97faff;
    text-align: center;
   }
-
+  @media screen and (max-width: 600px) {
+    section > h3{font-size: 2.75rem;}
+  }
