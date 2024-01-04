@@ -16,9 +16,7 @@ import Appp from './components/sponsorships/spons.jsx';
 import ContactPage from './components/Hospitality/Contact-us/Contact.jsx';
 
 import Login from './components/login/login.jsx';
-import { inject } from '@vercel/analytics';
- 
-inject();
+
 function App() {
   return (
     <BrowserRouter>
