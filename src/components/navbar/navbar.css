@@ -70,7 +70,7 @@ background: -webkit-linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100
   
   .nav-toggle div a {
     /* background-color: transparent; */
-    background: linear-gradient(to bottom, #00000000, #000000,#000000,#000000, #aa00ff);
+    background: linear-gradient(to bottom, #00000000, #000000,#000000,#000000, #430062);
     border: 1px solid #aa00ff;
     color: white;
     border-radius: 1rem;
