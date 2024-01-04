@@ -8,119 +8,118 @@
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
 
 header {
-    background-color: #000000;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+  background-color: #000000;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
 
 .sponsorship-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2rem auto; /* Set margin to auto to center horizontally */
-    max-width: 1000px; /* Adjust max-width as needed */
-    width: 90%; /* Set a percentage width */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem auto; /* Set margin to auto to center horizontally */
+  max-width: 1000px; /* Adjust max-width as needed */
+  width: 90%; /* Set a percentage width */
 }
-
 
 .center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%; /* Set a percentage width */
-    margin: 0 auto; /* Set margin to auto to center horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; /* Set a percentage width */
+  margin: 0 auto; /* Set margin to auto to center horizontally */
 }
-
 
 .sponsor {
-    width: 90%;
-    max-width: 400px;
-    height: auto;
-    padding: 0.5rem;
-    margin: 5rem auto; /* Increased margin to create a larger gap and centered */
-    text-align: center;
-    align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    transform: translateY(5vw);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-    color: #333;
-    position: relative;
-    overflow: hidden;
-    background: black;
-    background-size: 200% 200%;
-    animation: gradientAnimation 10000s linear infinite;
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  padding: 0.5rem;
+  margin: 5rem auto; /* Increased margin to create a larger gap and centered */
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(5vw);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  color: #333;
+  position: relative;
+  overflow: hidden;
+  background: black;
+  background-size: 200% 200%;
+  animation: gradientAnimation 10000s linear infinite;
 }
 
-
-
 .sponsor img {
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    margin-bottom: 1rem;
-    height: auto;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 1rem;
+  height: auto;
 }
 
 .sponsor.appear {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .sponsor-group {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .sponsor::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.2) 100%);
-    transform: rotate(45deg);
-    opacity: 0;
-    transition: opacity 1s ease;
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 .sponsor:hover::before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .main-title {
-    padding-top: 10vw; /* Adjusted value for responsiveness */
-    font-size: 5vw;
-    font-family: "Orbitron", sans-serif;
+  padding-top: 10vw; /* Adjusted value for responsiveness */
+  font-size: 5vw;
+  font-family: "Orbitron", sans-serif;
 }
 
 @keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-        /* Initial position of the gradient */
-    }
+  0% {
+    background-position: 0% 50%;
+    /* Initial position of the gradient */
+  }
 
-    100% {
-        background-position: 100% 50%;
-        /* Final position of the gradient */
-    }
+  100% {
+    background-position: 100% 50%;
+    /* Final position of the gradient */
+  }
 }
 
 /* Media Queries for Responsive Design */
 @media screen and (min-width: 768px) {
-    .sponsor {
-        width: 40%;
-    }
+  .sponsor {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .sponsor {
-        width: 30%;
-    }
+  .sponsor {
+    width: 30%;
+  }
 }
-

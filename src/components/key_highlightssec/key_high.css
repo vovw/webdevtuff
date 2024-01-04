@@ -8,7 +8,8 @@
     width: 100%;
     padding-top: 56.25%;
 }
-   
+.font-orbitron{font-family: "Orbitron", sans-serif!important;} 
+p{font-family: 'Montserrat', sans-serif;}
 .responsive-iframe{
     border-radius: 16px;
     border: 1px solid cyan;
@@ -24,7 +25,7 @@
     font-family: 'Orbitron', sans-serif;
 }
 .afterMovie{
-   color: rgb(10, 170, 227);
+   color: #97faff;
    text-align: center;
   }
 

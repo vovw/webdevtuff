@@ -17,6 +17,7 @@ body{
     border-bottom-width: 0.1rem;
     border-bottom-style: solid;
 }
+.nav-logo > p{font-family: 'Orbitron', sans-serif;}
 .nav-logo img {
     width: 3.2rem;
 }
