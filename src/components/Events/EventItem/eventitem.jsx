@@ -11,10 +11,9 @@ const EventItem = (props) => {
       <div className="popup-content">
         <p>{props.brief}</p>
       </div>
-      {/* <button >Close</button> */}
+
     </div>
 
-    
   </a>
   );
 };

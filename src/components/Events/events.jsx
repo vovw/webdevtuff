@@ -9,8 +9,6 @@ const Events = () => {
   const moveRightButtonRef = useRef(null);
   const moveLeftButtonRef = useRef(null);
 
-  // You need to create one control for each event that is added to the data 
-  // and add that control to the controls Array. Also update the totalEvents variable
   const totalEvents = data.length;
   const control1 = useAnimation()
   const control2 = useAnimation()
@@ -21,18 +19,8 @@ const Events = () => {
   const control7 = useAnimation()
   const control8 = useAnimation()
   const control9 = useAnimation()
-  const control10 = useAnimation()
-  const control11 = useAnimation()
-  const control12 = useAnimation()
-  const control13 = useAnimation()
-  const control14 = useAnimation()
-  const control15 = useAnimation()
-  const control16 = useAnimation()
-  const control17 = useAnimation()
-  const control18 = useAnimation()
 
-
-  const controls = [control1, control2, control3, control4, control5, control6, control7, control8, control9, control10, control11, control12, control13, control14, control15, control16, control17, control18 ]
+  const controls = [control1, control2, control3, control4, control5, control6, control7, control8, control9]
   const [controlIndex, setControlIndex] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -51,6 +39,7 @@ const Events = () => {
         return [newControlIndex, newControlIndex + 1, newControlIndex + 2, 0, 1]
       case 4:
         return [newControlIndex, newControlIndex + 1, newControlIndex + 2, newControlIndex + 3, 0]
+
       default:
         return [newControlIndex, newControlIndex + 1, newControlIndex + 2, newControlIndex + 3, newControlIndex + 4]
     }
@@ -370,7 +359,14 @@ const Events = () => {
           </a>
         ))}
       </div>
-      <EventItem title={data[currentIndex].title} imgname={data[currentIndex].imgname} brief={data[currentIndex].brief} href={'/events/' + data[currentIndex].title} />
+      <EventItem
+       title={data[currentIndex].title}
+       imgname={data[currentIndex].imgname}
+       // regLink={data[currentIndex].regLink}
+       // docum={data[currentIndex].pdf}
+       brief={data[currentIndex].brief}
+       href={'/events/' + data[currentIndex].title}
+      />
       <Fotter position="absolute" />
     </div>
   )
