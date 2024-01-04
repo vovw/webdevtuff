@@ -1,70 +1,83 @@
-.landing{
-    background: url('./earth.gif') no-repeat center center / cover;
-    background-attachment: fixed;
+.landing {
+  background: url("./earth.gif") no-repeat center center / cover;
+  background-attachment: fixed;
 }
-.landing > div{
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Orbitron', sans-serif;
+.landing > div {
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Orbitron", sans-serif;
 }
-.landing > div > h2{
-    /* font-family: 'Sora', sans-serif; */
-    font-family: 'Orbitron', sans-serif;
-    background: linear-gradient(45deg,#ffffff,#ffffff25);
-    
+.landing > div > h2 {
+  /* font-family: 'Sora', sans-serif; */
+  font-family: "Orbitron", sans-serif;
+  background: linear-gradient(45deg, #ffffff, #ffffff25);
+
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}.landing > div > h1{
-    font-family: 'Orbitron', sans-serif;
-    color: #ffffff;
+}
+.landing > div > h1 {
+  font-family: "Orbitron", sans-serif;
+  color: #ffffff;
 }
 .button-container {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background: linear-gradient(#00000000, #000000);
-   }
-   
-   .btn-gradient {
-    padding: 10px 20px;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background 0.5s;
-   }
-   
-   .btn-gradient:hover {
-    background: linear-gradient(to right, #0072ff, #00c6ff);
-   }
-   
-   .btn-gradient--color__1 {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-   }
-   
-   .btn-gradient--color__2 {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-   }
-@media (max-width: 768px) {
-    .landing {
-        background-attachment: scroll;
-    }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(#00000000, #000000);
+}
 
-    .landing > div > h2 {
-        font-size: 1.5em; 
-    }
-    .landing > div > h1 {
-        font-size: 4rem; 
-    }
+.btn-gradient {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.btn-gradient--color__1 {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.btn-gradient--color__2 {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+@media (max-width: 768px) {
+  .landing {
+    background-attachment: scroll;
+  }
+
+  .landing > div > h2 {
+    font-size: 1.5em;
+  }
+  .landing > div > h1 {
+    font-size: 4rem;
+  }
 }
 @media (max-width: 640px) {
-    .landing > div > h2 {
-        font-size: 1.5em; 
-    }
-    .landing > div > h1 {
-        font-size: 3rem; 
-    }
+  .landing > div > h1 {
+    font-size: 2.75rem;
+  }
+}
+@media (max-width: 520px) {
+  .landing > .title-container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media (max-width: 460px) {
+  .landing > .title-container {
+    margin-left: 1rem;
+    margin-right: 0rem;
+  }
+  .landing > div > h2 {
+    font-size: 1.25em;
+  }
 }
