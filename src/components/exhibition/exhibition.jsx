@@ -1,5 +1,4 @@
-import React from 'react';
-import "./exhibition.css";
+import React from 'react'; import "./exhibition.css"; 
 import Fotter from "../fotter/fotter";
 const Exhibition = () => {
   return (
@@ -13,7 +12,7 @@ const Exhibition = () => {
           <div className='h-full flex flex-col gap-8'>
             <p className='text-4xl'>For Attendees</p>
             <p className='text-base exh-des'>Embark on a journey of innovation and exploration at Technovanza's exhibition! Immerse yourself in a showcase of cutting-edge projects, revolutionary technologies, and ingenious ideas. Join us to witness the convergence of creativity and expertise, as talented minds from across the country display their innovations. Gain insights from the brilliant minds behind the projects, and be a part of the excitement at Technovanza. Don't miss this opportunity to experience the forefront of technological advancement!</p>
-            <button className='attende-btn  rounded-3xl py-2'>Register</button>
+            <a target="_blank"  className='attende-btn  rounded-3xl py-2 flex flex-row justify-center' href="https://unstop.com/p/science-tech-expo-2024-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mumbai-857301"><button>Register</button></a>
           </div>
         </div>
       </div>
@@ -25,7 +24,7 @@ const Exhibition = () => {
           <div className='h-full flex flex-col gap-8'>
             <p className='text-4xl'>For Exhibitors</p>
             <p className='text-base exh-des'>Calling all innovators and creators! Showcase your groundbreaking projects and ideas at Technovanza's exhibition. This is your chance to spotlight your technological marvels, share your passion for innovation, and connect with a diverse audience of tech enthusiasts. Whether you're a student, a startup, or an established tech wizard, this is the platform to exhibit your prowess. Set up your project, demonstrate its potential, and leave a lasting impression on the vibrant tech community.</p>
-            <a href='https://forms.gle/AN2gsQvgX9JqKqZb8' target='_blank' className='text-center exhibi-btn rounded-3xl py-2'>Fill the form</a>
+            <button className='exhibi-btn rounded-3xl py-2'>Fill the form</button>
           </div>
         </div>
       </div>
