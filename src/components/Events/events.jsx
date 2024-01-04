@@ -362,8 +362,6 @@ const Events = () => {
       <EventItem
        title={data[currentIndex].title}
        imgname={data[currentIndex].imgname}
-       // regLink={data[currentIndex].regLink}
-       // docum={data[currentIndex].pdf}
        brief={data[currentIndex].brief}
        href={'/events/' + data[currentIndex].title}
       />

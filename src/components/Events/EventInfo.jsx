@@ -26,7 +26,7 @@ export default function EventInfo ({ title, imgname, eventDesc, link, docum}){
                 </a>
                 <a href= {docum}>
                  <button target="_blank" className="info-button" >
-                     Event Info
+                    Rule Book
                  </button>
                 </a>
                 </div>
