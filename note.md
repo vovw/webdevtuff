@@ -21,4 +21,4 @@
 - [x] exhibition (harshal)
 - [x] privacy policy and terms and condition ki styling (tanish)
 - [x] aftermovie fix ( copy techfest as usual ) (prathemsh)
-- [x] navbar background and outline fix (harshal) 
+- [x] navbar background and outline fix (harshal) hello
