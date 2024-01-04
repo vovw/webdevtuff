@@ -6,10 +6,10 @@ export default function Navbar() {
     <>
       <section className="landing h-screen text-white bg-black flex items-center justify-start w-screen">
         <div className="title-container h-1/2 mx-16">
-          <h1 className="text-8xl" data-aos="fade-down">
+          <h1 className="text-8xl text-left" data-aos="fade-down">
             Technovanza
           </h1>
-          <h2 className="text-4xl" data-aos="fade-down">
+          <h2 className="text-4xl text-left" data-aos="fade-down">
             Warp drive into the Far Future
           </h2>
         </div>
