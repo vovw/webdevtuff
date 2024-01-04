@@ -16,20 +16,7 @@
   -webkit-text-fill-color: transparent;
 }.landing > div > h1{
     font-family: 'Orbitron', sans-serif;
-}
-.txgradient{
-    /* background: linear-gradient(-45deg,#00c3dd,#00aeff,#ff31ff,#4011e9); */
-    /* background: linear-gradient(-45deg,#c5f8ff,#c1ebff,#ffc6ff,#cfc2ff); */
-    background-color: #ffffff;
-    background-size: 600%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-    display: inline-block;
-    animation-name: txcolor;
-    animation-duration: 16s;
-    animation-iteration-count: infinite;
-    font-size: 8vw;
+    color: #ffffff;
 }
 .button-container {
     position: absolute;
@@ -61,16 +48,6 @@
    .btn-gradient--color__2 {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
    }
-   
-@keyframes txcolor {
-    /* 0% {      background-position: 100% 0%;    } */
-    /* 35% {      background-position: 0% 50%;    } */
-    /* 60% {      background-position: 50% 50%;    } */
-    /* 100% {      background-position: 100% 0%;    } */
-}
-/* .vidbg{
-    
-} */
 @media (max-width: 768px) {
     .landing {
         background-attachment: scroll;
