@@ -14,6 +14,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}.landing > div > h1{
+    font-family: 'Orbitron', sans-serif;
 }
 .txgradient{
     /* background: linear-gradient(-45deg,#00c3dd,#00aeff,#ff31ff,#4011e9); */
