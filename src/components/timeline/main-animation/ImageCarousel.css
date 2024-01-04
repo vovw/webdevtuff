@@ -1,65 +1,65 @@
 .CarouselWrapper {
-    width: 80vw;
-    height: 66vh; 
-    margin: 0 auto; /* Center the carousel */
-    overflow-x: hidden;
-    margin-bottom: 2rem;
-  }
+  width: 80vw;
+  height: 66vh;
+  margin: 0 auto; /* Center the carousel */
+  overflow-x: hidden;
+  margin-bottom: 2rem;
+}
 
 .ImageCarouselContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-top: 20%; /* Adjust top margin as needed */
-    margin-bottom: 5%; /* Adjust bottom margin as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 20%; /* Adjust top margin as needed */
+  margin-bottom: 5%; /* Adjust bottom margin as needed */
+}
+
+.Image {
+  width: 50%; /* Adjust the initial width */
+  height: auto;
+  background-color: #87a0e2;
+  border-radius: 16px;
+  position: absolute;
+  user-select: none;
+  transition: transform 0.3s, opacity 0.3s, z-index 0.3s;
+}
+
+.Arrows {
+  width: 50%; /* Adjust the initial width */
+  max-width: 900px; /* Set a max-width for larger screens */
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.Arrow {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  fill: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 600px) {
+  .CarouselWrapper {
+    height: 40vh;
   }
-  
-  .Image {
-    width: 50%; /* Adjust the initial width */
-    height: auto;
-    background-color: #87A0E2;
-    border-radius: 16px;
-    position: absolute;
-    user-select: none;
-    transition: transform 0.3s, opacity 0.3s, z-index 0.3s;
+  .ImageCarouselContainer {
+    margin-top: 45%; /* Adjust top margin for smaller screens */
+    margin-bottom: 0%; /* Adjust bottom margin for smaller screens */
   }
-  
+
+  .Image,
   .Arrows {
-    width: 50%; /* Adjust the initial width */
-    max-width: 900px; /* Set a max-width for larger screens */
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    z-index: 100;
+    width: 80%; /* Adjust width for smaller screens */
   }
-  
+
   .Arrow {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    fill: white;
-    opacity: 0.8;
-    cursor: pointer;
+    width: 40px;
+    height: 40px;
   }
-  
-  /* Media queries for responsive adjustments */
-  @media (max-width: 600px) {
-    .CarouselWrapper{
-        height: 40vh;
-    }
-    .ImageCarouselContainer {
-      margin-top: 45%; /* Adjust top margin for smaller screens */
-      margin-bottom: 0%; /* Adjust bottom margin for smaller screens */
-    }
-  
-    .Image, .Arrows {
-      width: 80%; /* Adjust width for smaller screens */
-    }
-  
-    .Arrow {
-      width: 40px;
-      height: 40px;
-    }
-  }
-  
+}

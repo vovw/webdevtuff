@@ -1,20 +1,19 @@
-import React, { useState, useEffect } from 'react';
-import './ImageCarousel.css';
+import React, { useState, useEffect } from "react";
+import "./ImageCarousel.css";
 
 const imgs = [
-  'https://i.imgur.com/8oJ3HvF.jpeg',
-  'https://i.imgur.com/kLB0jvk.jpeg',
-  'https://i.imgur.com/R4q1rEU.jpeg',
-  'https://i.imgur.com/Lu4ltOF.jpeg',
-  'https://i.imgur.com/x5AD1yW.jpeg',
-  'https://i.imgur.com/pIdINGN.jpeg',
-  'https://i.imgur.com/dsMAQW3.jpeg',
-  'https://i.imgur.com/WwxPHav.jpeg',
-  'https://i.imgur.com/AEysrMF.jpeg',
-  'https://i.imgur.com/IdGhmGR.jpeg',
-  'https://i.imgur.com/qdXZRJ3.jpeg',
-  'https://i.imgur.com/6HLtyoi.jpeg',
-
+  "https://i.imgur.com/8oJ3HvF.jpeg",
+  "https://i.imgur.com/kLB0jvk.jpeg",
+  "https://i.imgur.com/R4q1rEU.jpeg",
+  "https://i.imgur.com/Lu4ltOF.jpeg",
+  "https://i.imgur.com/x5AD1yW.jpeg",
+  "https://i.imgur.com/pIdINGN.jpeg",
+  "https://i.imgur.com/dsMAQW3.jpeg",
+  "https://i.imgur.com/WwxPHav.jpeg",
+  "https://i.imgur.com/AEysrMF.jpeg",
+  "https://i.imgur.com/IdGhmGR.jpeg",
+  "https://i.imgur.com/qdXZRJ3.jpeg",
+  "https://i.imgur.com/6HLtyoi.jpeg",
 ];
 
 const ImageCarousel = () => {
@@ -27,7 +26,6 @@ const ImageCarousel = () => {
   const handlePrev = () => {
     setIndex((index - 1 + imgs.length) % imgs.length);
   };
-   
 
   const calculateStyles = (imageIndex) => {
     const xOffsetStep = 100;

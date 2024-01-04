@@ -1,132 +1,133 @@
-.r-hr-line p{
-    height: 3px;
-    background-color: #db1bf0;
-    position: relative;
-    right: .7rem;
-    width: 100%;
+.r-hr-line p {
+  height: 3px;
+  background-color: #db1bf0;
+  position: relative;
+  right: 0.7rem;
+  width: 100%;
 }
-.right-content img{
-    width: 11rem;
-    height: 11rem;
-    border-radius: 1.2rem;
-    position: relative;
-    right: .7rem;
-    z-index: 5;
-    transition: transform 1s ease;
+.right-content img {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 1.2rem;
+  position: relative;
+  right: 0.7rem;
+  z-index: 5;
+  transition: transform 1s ease;
 }
-.right-content img:hover{
-    transform: scale(0.97);
+.right-content img:hover {
+  transform: scale(0.97);
 }
 
 .right-content div {
-    width: 3rem;
+  width: 3rem;
 }
 .content-discription2 {
-    width: 10rem !important;
-    height: 10rem!important;
-    z-index: 2;
-    transition: transform 0.3s ease;
-   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    border-radius: 1.2rem;
-    background-color: black;
-    color: white;
-    position: relative;
-    left: 23rem;
+  width: 10rem !important;
+  height: 10rem !important;
+  z-index: 2;
+  transition: transform 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 1.2rem;
+  background-color: black;
+  color: white;
+  position: relative;
+  left: 23rem;
 }
 
 .r-inc_transition {
-    transform: translateX(11rem)
+  transform: translateX(11rem);
 }
-.r-year{
-    font-family: 'Rubik', sans-serif;
-    color: red;
+.r-year {
+  font-family: "Rubik", sans-serif;
+  color: red;
 }
-.r-brief{
-    text-align: start;
+.r-brief {
+  text-align: start;
 }
 .ver-line {
-    width: 3px;
-    background-color: #db1bf0;
-    margin: 0px 11px;
+  width: 3px;
+  background-color: #db1bf0;
+  margin: 0px 11px;
 }
 .vacant2 {
-    width: 17rem;
+  width: 17rem;
 }
 .r-main-year {
-    z-index: 3;
-    width: 40px;
-    height: 40px;
-    background:linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%) ;
-    border-radius: 50%;
-    position: relative;
-    /* top: 4.2rem; */
-    left: 16.6rem;
-    color: white;
-    overflow: hidden;
-    cursor: pointer;
-    transition: border-radius 0.3s ease;
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+  border-radius: 50%;
+  position: relative;
+  /* top: 4.2rem; */
+  left: 16.6rem;
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-radius 0.3s ease;
 }
-.r-main-year-transition{
-    border-radius: 30%;
+.r-main-year-transition {
+  border-radius: 30%;
 }
 .r-main-year * {
-    position: relative;
-    right: 20px;
-    transition: transform 0.3s ease;
+  position: relative;
+  right: 20px;
+  transition: transform 0.3s ease;
 }
 
 .r-main-year img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .r-main-circle-transition {
-    transform: translateX(38px);
+  transform: translateX(38px);
 }
-@media(max-width:900px){
-    .r-hr-line-2 *,.r-hr-line-2{
-        display: none!important;
-    }
-    .vacant2 {
-        width: 14rem;
-    }
-    .r-main-year{
-        position: relative;
-        left: 13.6rem;
-    }
-    .content-discription2 {
-        position: relative;
-        left: 15rem;
-    }
+@media (max-width: 900px) {
+  .r-hr-line-2 *,
+  .r-hr-line-2 {
+    display: none !important;
+  }
+  .vacant2 {
+    width: 14rem;
+  }
+  .r-main-year {
+    position: relative;
+    left: 13.6rem;
+  }
+  .content-discription2 {
+    position: relative;
+    left: 15rem;
+  }
 }
-@media(max-width:750px){
-    .right-content img {
-        width: 8rem!important;
-        height: 8rem!important;
-        position: relative;
-        right: .7rem;
-    }
-    .content-discription2 {
-        width: 8rem !important;
-        height: 8rem!important;
-        position: relative;
-        left: 12.4rem;
-    }
-    .r-main-year{
-        position: relative;
-        left: 10.5rem;
-    }
-    .r-year {
-        font-size: .9rem;
-    }
-    .r-brief {
-        font-size: .74rem;
-    }
-    .r-inc_transition {
-        transform: translateY(-8rem);
-    }
-    .vacant2 {
-        width: 11rem;
-    }
-    
+@media (max-width: 750px) {
+  .right-content img {
+    width: 8rem !important;
+    height: 8rem !important;
+    position: relative;
+    right: 0.7rem;
+  }
+  .content-discription2 {
+    width: 8rem !important;
+    height: 8rem !important;
+    position: relative;
+    left: 12.4rem;
+  }
+  .r-main-year {
+    position: relative;
+    left: 10.5rem;
+  }
+  .r-year {
+    font-size: 0.9rem;
+  }
+  .r-brief {
+    font-size: 0.74rem;
+  }
+  .r-inc_transition {
+    transform: translateY(-8rem);
+  }
+  .vacant2 {
+    width: 11rem;
+  }
 }
