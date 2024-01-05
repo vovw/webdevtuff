@@ -39,7 +39,7 @@ export default function Key_high() {
         <div className="container video-frame relative flex flex-col lg:flex-row items-center gap-8 ">
           <iframe
             className="responsive-iframe h-48 w-5/6 sm:w-3/6 sm:h-80"
-            src="https://youtu.be/e-t4dMonPZc"
+            src="https://www.youtube.com/embed/watch?v=e-t4dMonPZc"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen=""
