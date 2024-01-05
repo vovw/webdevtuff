@@ -20,12 +20,12 @@ export default function EventInfo ({ title, imgname, eventDesc, docum, link, coo
 
 
                 <div className="info-bar">
-                <a href={link}>
+                <a href={link} target="_blank">
                  <button  className="info-button">
                      Register Here
                  </button>
                 </a>
-                <a href= {docum}>
+                <a href= {docum} target="_blank">
                  <button className="info-button" >
                     Rule Book
                  </button>
