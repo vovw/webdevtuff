@@ -33,7 +33,8 @@ function App() {
         <Route exact path='/sponsorships' element={<Appp />} />
         <Route exact path='/Contacts' element={<ContactPage />} />
         <Route exact path='/login' element={<Login />} />
-        {eventsData.map((e) => <Route exact path={'/events/' + e.title} element={<EventInfo title={e.title} imgname={e.imgname} eventDesc={e.description} venue={e.venue} date={e.date} price={e.price} coordinator1={e.coordinator1} coordinator2={e.coordinator2} contact1={e.contact1} contact2={e.contact2} />} />)}
+	{eventsData.map((e) => <Route exact path={'/events/' + e.title} element={<EventInfo title={e.title} imgname={e.imgname} eventDesc={e.description} link={e.reglink} docum={e.pdf} coordinator3={e.coordinator3} coordinator1={e.coordinator1} coordinator2={e.coordinator2} contact1={e.contact1} contact2={e.contact2} contact3={e.contact3} />} />)}
+
         <Route />
       </Routes>
     </BrowserRouter>
