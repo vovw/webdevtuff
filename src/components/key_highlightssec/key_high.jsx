@@ -46,7 +46,7 @@ export default function Key_high() {
         </div>
       </section>
       <section className="aftermovie flex flex-col justify-center items-center my-6">
-        <h3 className="text-white text-6xl font-orbitron mt-16 key-main">
+        <h3 className="text-white text-6xl max-sm:text-5xl font-orbitron mt-16 key-main">
           Aftermovie
         </h3>
         <div className="flex my-2 justify-center">
@@ -54,7 +54,7 @@ export default function Key_high() {
         </div>
         <div className="container video-frame relative flex flex-col lg:flex-row items-center gap-8 ">
           <iframe
-          className="responsive-iframe h-48 w-5/6 sm:w-3/6 sm:h-80"
+            className="responsive-iframe h-48 w-5/6 sm:w-3/6 sm:h-80"
             src="https://www.youtube.com/embed/e-t4dMonPZc?si=cnoAF2CRqkSF86qI"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -69,21 +69,24 @@ export default function Key_high() {
         </div>
       </section>
       {/* Maps */}
-      <section className="radialcir aftermovie flex flex-col justify-center items-center my-6">
+      <section className="w-screen radialcir aftermovie flex flex-col justify-center items-center my-6">
         <h3 className="text-white text-5xl font-orbitron mt-16 key-main max-sm:text-4xl">
           Locate Us
         </h3>
-        <div class="flex my-2 justify-center"><div class="w-16 h-1 rounded-full bg-purple-500 inline-flex"></div></div>
-        
+        <div class="flex my-2 justify-center">
+          <div class="w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
+        </div>
+
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.9432282763996!2d72.85354627438042!3d19.022223153660192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf26f4972d21%3A0x2c50185364aca4c1!2sVeermata%20Jijabai%20Technological%20Institute%20VJTI!5e0!3m2!1sen!2sin!4v1704468679370!5m2!1sen!2sin"
-            width={1200}
-            height={450}
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
+          className="w-screen sm:w-2/3"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.9432282763996!2d72.85354627438042!3d19.022223153660192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf26f4972d21%3A0x2c50185364aca4c1!2sVeermata%20Jijabai%20Technological%20Institute%20VJTI!5e0!3m2!1sen!2sin!4v1704468679370!5m2!1sen!2sin"
+          // width={500}
+          height={450}
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
       </section>
     </>
   );
