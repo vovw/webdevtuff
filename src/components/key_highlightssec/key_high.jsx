@@ -68,6 +68,23 @@ export default function Key_high() {
           </p>
         </div>
       </section>
+      {/* Maps */}
+      <section className="radialcir aftermovie flex flex-col justify-center items-center my-6">
+        <h3 className="text-white text-5xl font-orbitron mt-16 key-main max-sm:text-4xl">
+          Locate Us
+        </h3>
+        <div class="flex my-2 justify-center"><div class="w-16 h-1 rounded-full bg-purple-500 inline-flex"></div></div>
+        
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.9432282763996!2d72.85354627438042!3d19.022223153660192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf26f4972d21%3A0x2c50185364aca4c1!2sVeermata%20Jijabai%20Technological%20Institute%20VJTI!5e0!3m2!1sen!2sin!4v1704468679370!5m2!1sen!2sin"
+            width={1200}
+            height={450}
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+      </section>
     </>
   );
 }
