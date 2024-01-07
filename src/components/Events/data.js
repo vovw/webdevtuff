@@ -94,7 +94,7 @@ let eventsData = [
 
  //    },
     {
-      id: 6,
+      id: 5,
       title: "Technodyssey",
       brief: "Exploring the theoretical concept of wormholes, the narrative highlights their potential for faster-than-light ...",
       description: "Exploring the theoretical concept of wormholes, the narrative highlights their potential for faster-than-light travel and connections between distant parts of the universe. While remaining a theoretical idea, the pursuit of uncovering the secrets of wormholes is presented as a tantalizing endeavor, inviting those with programming skills, scientific knowledge, and creativity to embark on a journey into the unknown.",
@@ -110,7 +110,7 @@ let eventsData = [
 
     },
     {
-      id: 7,
+      id: 6,
       title: "RoboSumo",
       brief: "Get ready for the electrifying Sumo War at Technovanza 24'! Robotic gladiators will battle it out ...",
       description: "Get ready for the electrifying Sumo War at Technovanza 24'! Robotic gladiators will battle it out in three distinct zones, testing their adaptability, speed, and tactical prowess. Witness the future of robotics and the ultimate showdown of strength, strategy, and artificial intelligence. Stay tuned for the champion of the robosumo competition!",
