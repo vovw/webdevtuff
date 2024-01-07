@@ -7,12 +7,12 @@ let eventsData = [
         description: "Embark on a thrilling cosmic odyssey in 'Trailblazing the Cosmos,' as manual and auto bots navigate challenges, gather resources, and unravel the mysteries of the universe, culminating in a symbol of hope for humanity at VRC 11.0.",
         reglink: "https://unstop.com/p/vrc-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mumbai-856134",
         pdf:"https://drive.google.com/file/d/1uHrUDpxj3vLcv1JdLb2MfuUqAAlxeu_u/view?usp=sharing",
-	coordinator1: 'Amrut Gotpagar',
+	coordinator1: 'Nivedita Shinde',
         coordinator2: 'Swastik Shenvi',
-	coordinator3: 'Nivedita Shinde',
-        contact1: '+91 9594936347',
+	coordinator3: 'Amrut Gotpagar',
+        contact1: '+91 7039254058',
         contact2: '+91 7506771667',
-	contact3: '+91 7039254058'
+	contact3: '+91 9594936347'
 
     },
     {
@@ -69,11 +69,11 @@ let eventsData = [
         reglink: "https://unstop.com/events/monster-arena-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mumbai-853050",
         pdf: "https://drive.google.com/file/d/1mYWFMagBe0JPoZld1whIipY2vCWih-V6/view?usp=sharing",
 
-	coordinator1: 'Amrut Gotpagar',
-        coordinator2: 'Swastik Shenvi',
+	coordinator1: 'Rushikesh Sonkar',
+        coordinator2: 'Atharva Nerkar',
 	coordinator3: 'Nivedita Shinde',
-        contact1: '+91 9594936347',
-        contact2: '+91 7506771667',
+        contact1: '+91 9049398094',
+        contact2: '+91 8999389615',
 	contact3: '+91 7039254058'
 
     },
@@ -106,6 +106,23 @@ let eventsData = [
         coordinator2: 'Muskan Thadani',
         contact1: '+91 9987088255',
         contact2: '+91 8652351301',
+
+
+    },
+    {
+      id: 7,
+      title: "RoboSumo",
+      brief: "Get ready for the electrifying Sumo War at Technovanza 24'! Robotic gladiators will battle it out ...",
+      description: "Get ready for the electrifying Sumo War at Technovanza 24'! Robotic gladiators will battle it out in three distinct zones, testing their adaptability, speed, and tactical prowess. Witness the future of robotics and the ultimate showdown of strength, strategy, and artificial intelligence. Stay tuned for the champion of the robosumo competition!",
+      imgname:"robosumo.png",
+      reglink: "https://unstop.com/competitions/robosumo-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mumbai-860840",
+      pdf: "https://drive.google.com/file/d/12ZFddfZChO8lzngC-4NIrUfavb8m6SNK/view?usp=sharing",
+
+
+	coordinator1: 'Faran Shaikh',
+        coordinator2: 'Swastik Shenvi',
+        contact1: '+91 9307956106',
+        contact2: '+91 7506771667',
 
 
     }

@@ -13,7 +13,7 @@ const Exhibition = () => {
           <div className='h-full flex flex-col gap-8'>
             <p className='text-4xl'>For Attendees</p>
             <p className='text-base exh-des'>Embark on a journey of innovation and exploration at Technovanza's exhibition! Immerse yourself in a showcase of cutting-edge projects, revolutionary technologies, and ingenious ideas. Join us to witness the convergence of creativity and expertise, as talented minds from across the country display their innovations. Gain insights from the brilliant minds behind the projects, and be a part of the excitement at Technovanza. Don't miss this opportunity to experience the forefront of technological advancement!</p>
-            <button className='attende-btn  rounded-3xl py-2'>Register</button>
+            <a href="https://lu.ma/Technovanza" target="_blank" className='attende-btn  rounded-3xl py-2 text-center'>Register</a>
           </div>
         </div>
       </div>

@@ -1,33 +1,42 @@
-.kh{
-    overflow: hidden;
-    background: url(./bgs.svg) no-repeat center center/ cover;
+.kh {
+  overflow: hidden;
+  background: url(./bgs.svg) no-repeat center center/ cover;
 }
 .container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
 }
-.font-orbitron{font-family: "Orbitron", sans-serif!important;} 
-p{font-family: 'Montserrat', sans-serif;}
-.responsive-iframe{
-    border-radius: 16px;
-    border: 1px solid cyan;
+.font-orbitron {
+  font-family: "Orbitron", sans-serif !important;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.responsive-iframe {
+  border-radius: 16px;
+  border: 1px solid cyan;
 }
 
-.des-key{
-    font-family: 'Montserrat', sans-serif;
+.des-key {
+  font-family: "Montserrat", sans-serif;
 }
-.key-hig-img{
-    width: 40rem;
+.key-hig-img {
+  width: 40rem;
 }
-.key-main{
-    font-family: 'Orbitron', sans-serif;
+.key-main {
+  font-family: "Orbitron", sans-serif;
 }
-.afterMovie{
-   color: #97faff;
-   text-align: center;
+.afterMovie {
+  color: #97faff;
+  text-align: center;
+}
+.radialcir {
+  background: radial-gradient(#00ffee, #000, #000);
+}
+@media screen and (max-width: 600px) {
+  section > h3 {
+    font-size: 2.75rem;
   }
-  @media screen and (max-width: 600px) {
-    section > h3{font-size: 2.75rem;}
-  }
+}
