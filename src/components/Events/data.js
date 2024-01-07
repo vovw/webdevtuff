@@ -98,7 +98,7 @@ let eventsData = [
       title: "Technodyssey",
       brief: "Exploring the theoretical concept of wormholes, the narrative highlights their potential for faster-than-light ...",
       description: "Exploring the theoretical concept of wormholes, the narrative highlights their potential for faster-than-light travel and connections between distant parts of the universe. While remaining a theoretical idea, the pursuit of uncovering the secrets of wormholes is presented as a tantalizing endeavor, inviting those with programming skills, scientific knowledge, and creativity to embark on a journey into the unknown.",
-      imgname:"co_define.png",
+      imgname:"coding.jpg",
       reglink: "https://unstop.com/hackathons/technodyssey-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mumbai-854809",
       pdf: "https://drive.google.com/file/d/1dZ_dyHd_bF6e0knXxms_XmERG-P0gmTq/view?usp=sharing",
 
