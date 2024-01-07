@@ -77,22 +77,22 @@ let eventsData = [
 	contact3: '+91 7039254058'
 
     },
-    {
-      id: 5,
-      title: "Techno Escapade",
-      brief: "In a bustling city, Max, a former graffiti artist turned archaeologist, seeks wealth and luxury. To...",
-      description: "In a bustling city, Max, a former graffiti artist turned archaeologist, seeks wealth and luxury. To achieve this, he plans an elaborate heist on the Temple Run Museum, facing challenges of a clear path and a formidable security team led by Detective Sarah. As they both prepare for the showdown, the story unfolds as an epic battle of wits, determination, and destiny.",
-      imgname:"technoquaser.png",
-      reglink: "https://unstop.com/p/technoescapade-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mumbai-854850",
-      pdf: "https://drive.google.com/file/d/174c7nhWA--en3WTGFSeObjGWE3UrraeV/view?usp=sharing",
+ //    {
+ //      id: 5,
+ //      title: "Techno Escapade",
+ //      brief: "In a bustling city, Max, a former graffiti artist turned archaeologist, seeks wealth and luxury. To...",
+ //      description: "In a bustling city, Max, a former graffiti artist turned archaeologist, seeks wealth and luxury. To achieve this, he plans an elaborate heist on the Temple Run Museum, facing challenges of a clear path and a formidable security team led by Detective Sarah. As they both prepare for the showdown, the story unfolds as an epic battle of wits, determination, and destiny.",
+ //      imgname:"technoquaser.png",
+ //      reglink: "https://unstop.com/p/technoescapade-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mumbai-854850",
+ //      pdf: "https://drive.google.com/file/d/174c7nhWA--en3WTGFSeObjGWE3UrraeV/view?usp=sharing",
 
-	coordinator1: 'Manav Shah',
-        coordinator2: 'Muskan Thadani',
-        contact1: '+91 9987088255',
-        contact2: '+91 8652351301',
+	// coordinator1: 'Manav Shah',
+ //        coordinator2: 'Muskan Thadani',
+ //        contact1: '+91 9987088255',
+ //        contact2: '+91 8652351301',
 
 
-    },
+ //    },
     {
       id: 6,
       title: "Technodyssey",
