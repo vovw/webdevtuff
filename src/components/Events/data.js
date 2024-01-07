@@ -108,6 +108,23 @@ let eventsData = [
         contact2: '+91 8652351301',
 
 
+    },
+    {
+      id: 7,
+      title: "RoboSumo",
+      brief: "Get ready for the electrifying Sumo War at Technovanza 24'! Robotic gladiators will battle it out ...",
+      description: "Get ready for the electrifying Sumo War at Technovanza 24'! Robotic gladiators will battle it out in three distinct zones, testing their adaptability, speed, and tactical prowess. Witness the future of robotics and the ultimate showdown of strength, strategy, and artificial intelligence. Stay tuned for the champion of the robosumo competition!",
+      imgname:"robosumo.png",
+      reglink: "https://unstop.com/competitions/robosumo-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mumbai-860840",
+      pdf: "https://drive.google.com/file/d/12ZFddfZChO8lzngC-4NIrUfavb8m6SNK/view?usp=sharing",
+
+
+	coordinator1: 'Faran Shaikh',
+        coordinator2: 'Swastik Shenvi',
+        contact1: '+91 9307956106',
+        contact2: '+91 7506771667',
+
+
     }
 
 ]
