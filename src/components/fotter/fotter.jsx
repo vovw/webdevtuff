@@ -19,6 +19,10 @@ export default function Fotter({ position }) {
               <div className="flex flex-row rules-div-link">
                 <p><a href="/terms">Terms of Service </a> and <a href="privacy">Privacy Policy</a></p>
               </div>
+              <div className="flex flex-row rules-div-link">
+               <p><a target="_blank" href="https://drive.google.com/drive/folders/1NOoWM1So-5mQTHzlui3EKSyAiq6cxkk3">media kit</a></p>
+
+              </div>
             </div>
           </div>
           <div className="dia-fotter-div hidden md:flex flex-row justify-center">

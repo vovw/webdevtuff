@@ -153,7 +153,7 @@ export const incGLS=[
         des:"Technovanza proudly presents an extraordinary opportunity to hear from a true luminary, Mr. Vappala Balachandran, who has served as the Special Secretary of R&AW, and even as the Cabinet Secretariat, Government of India",
         date:"13th January 2024",
         time:"12:30 pm",
-        venue:" Kranti Jyoti Savitribai Phule Auditorium, VJTI",
+        venue:"Kranti Jyoti Savitribai Phule Auditorium, VJTI",
         link:"https://unstop.com/workshops-webinars/guest-lecture-vappala-balachandran-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mum-854460"
     },
     {
@@ -165,5 +165,15 @@ export const incGLS=[
         time:"3:00pm",
         venue:"Kranti Jyoti Savitribai Phule Auditorium, VJTI",
         link:"https://unstop.com/workshops-webinars/speaker-session-dr-deepak-dhar-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mumbai-854474"
+    },
+    {
+      name:"Darshan Jariwala",
+      img:"darshan",
+      color:"rose",
+      des:"Join us as for an interactive session with the journey of acting based exploration with National film🎞️ award winner actor Mr. Darshan Jariwala in continuation to the Technovanza’s Guest lecture series🎥.He delivers a compelling performance and his portrayal role 🎦in movies like Gandhi: My father, Style,  Ajab Prem ki Gazab Kahani🎥🍿",
+      date:"13th January 2024",
+      time:"5:00pm",
+      venue:"Kranti Jyoti Savitribai Phule Auditorium, VJTI",
+      link:"https://unstop.com/p/guest-lecture-by-darshan-jariwala-technovanza-vjti-veermata-jijabai-technological-institute-vjti-mumbai-860148"
     }
 ]
