@@ -13,13 +13,13 @@
  align-items: center;
 }
 
-.container h1 {
+h1.color {
  text-align: center;
  font-size: 3rem; /* 3 times the base font size */
 font-family: "Orbitron", sans-serif;
   text-align: center;
   font-size: 2rem;
-  margin-top: 12rem;
+  margin-top: 2rem;
   color: white;
 }
 
