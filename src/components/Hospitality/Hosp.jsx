@@ -48,7 +48,7 @@ class Hosp extends React.Component {
      </div>
    </div>
    <div className="buttons">
-     <button className="avail-button">Avail Now</button>
+     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyyqW6mFY4QLWR_-rABaKGVZZD3lbPsXy5RIejVYTUbVDtfA/viewform?usp=sf_link" className="avail-button">Avail Now</a>
      <button className="info-button">More info</button>
    </div>
    <div className="containerss">
@@ -77,7 +77,7 @@ class Hosp extends React.Component {
          </button>
          <div className="accordion-content" style={{ maxHeight: this.state.isOpen[1] ? '1000px' : '0px' }}>
            <p>
-             Accommodation Charges: Rs. 500 /- per night.
+             Accommodation Charges: Rs. 500 /- 
            </p>
          </div>
        </div>
