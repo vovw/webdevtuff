@@ -48,7 +48,7 @@ class Hosp extends React.Component {
      </div>
    </div>
    <div className="buttons">
-     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyyqW6mFY4QLWR_-rABaKGVZZD3lbPsXy5RIejVYTUbVDtfA/viewform?usp=sf_link" className="Contacts">Avail Now</a>
+     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyyqW6mFY4QLWR_-rABaKGVZZD3lbPsXy5RIejVYTUbVDtfA/viewform?usp=sf_link" className="avail-button">Avail Now</a>
      <button className="info-button">More info</button>
    </div>
    <div className="containerss">
