@@ -27,7 +27,7 @@ class Hosp extends React.Component {
  render() {
  return (
  <div className="containerss">
-   <h3>Accommodation</h3>
+   <h1>Accommodation</h1>
    <h3 className="steps">Steps to register</h3>
    <div className="registration-steps-container">
      <div className="registration-step">
@@ -48,7 +48,7 @@ class Hosp extends React.Component {
      </div>
    </div>
    <div className="buttons">
-     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyyqW6mFY4QLWR_-rABaKGVZZD3lbPsXy5RIejVYTUbVDtfA/viewform?usp=sf_link" className="avail-button">Avail Now</a>
+     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyyqW6mFY4QLWR_-rABaKGVZZD3lbPsXy5RIejVYTUbVDtfA/viewform?usp=sf_link" className="Contacts">Avail Now</a>
      <button className="info-button">More info</button>
    </div>
    <div className="containerss">
