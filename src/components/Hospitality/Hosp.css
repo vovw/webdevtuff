@@ -271,7 +271,7 @@ h3.steps {
 
 @media (max-width: 480px) {
 }
-.container h1 {
+h1.color {
   text-align: center;
   font-size: 3rem;
   margin-top: 2rem;
