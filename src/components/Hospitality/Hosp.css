@@ -297,6 +297,16 @@ h1.color {
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 } */
+@media (max-width: 480px) {
+  .containerss {
+    padding: 0.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .containerss {
+    padding: 0.75rem;
+  }
+}
 
 .registration-step {
   font-family: 'Orbitron', sans-serif;
