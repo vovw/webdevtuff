@@ -27,7 +27,7 @@ class Hosp extends React.Component {
  render() {
  return (
  <div className="containerss">
-   <h1>Accommodation</h1>
+   <h3>Accommodation</h3>
    <h3 className="steps">Steps to register</h3>
    <div className="registration-steps-container">
      <div className="registration-step">
