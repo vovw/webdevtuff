@@ -29,7 +29,7 @@ function App() {
         <Route exact path='/exhibition' element={<Exhibition />} />
         <Route exact path='/privacy' element={<Privacy />} />
         <Route exact path='/terms' element={<TandC />} />
-        <Route exact path='/Hospitality' element={<Hosp />} />
+        <Route exact path='/accommodation' element={<Hosp />} />
         <Route exact path='/sponsorships' element={<Appp />} />
         <Route exact path='/Contacts' element={<ContactPage />} />
         <Route exact path='/login' element={<Login />} />

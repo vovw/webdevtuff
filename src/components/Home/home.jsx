@@ -19,9 +19,9 @@ export default function Navbar() {
               Sponsors
             </button>
           </a>
-          <a href="/Hospitality">
+          <a href="/accommodation">
             <button className="btn-gradient btn-gradient--color__2">
-              Hospitality
+              Accommodation
             </button>
           </a>
         </div>
