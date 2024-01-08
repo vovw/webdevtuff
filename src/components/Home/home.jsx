@@ -13,8 +13,8 @@ export default function Navbar() {
             Warp drive into the Far Future
           </h2>
         </div>
-        <div className="button-container hidden">
-          <a href="/sponsorships">
+        <div className="button-container">
+          <a href="/Home">
             <button className="btn-gradient btn-gradient--color__1">
               Sponsors
             </button>
